@@ -1,117 +1,131 @@
-# Core Development Subagents
+# 核心開發子代理
 
-Core Development subagents are your essential toolkit for building modern applications from the ground up. These specialized agents cover the entire development spectrum - from backend services to frontend interfaces, from mobile apps to desktop applications, and from simple APIs to complex distributed systems.
+核心開發子代理是你從頭開始建構現代應用程式的基本工具包。這些專業代理涵蓋整個開發範疇 - 從後端服務到前端介面，從行動應用程式到桌面應用程式，從簡單的 API 到複雜的分散式系統。
 
-## 🎯 When to Use Core Development Subagents
+## 🎯 何時使用核心開發子代理
 
-Use these subagents when you need to:
-- **Build new applications** from scratch with proper architecture
-- **Implement complex features** that require deep technical expertise  
-- **Design scalable systems** that can grow with your needs
-- **Create beautiful UIs** that provide exceptional user experiences
-- **Develop real-time features** for interactive applications
-- **Modernize legacy systems** with current best practices
-- **Optimize performance** across the entire stack
+在以下情況下使用這些子代理：
 
-## 📋 Available Subagents
+- **從零開始建構新應用程式**，具備適當的架構
+- **實作複雜功能**，需要深度技術專業知識
+- **設計可擴展系統**，能夠隨著需求成長
+- **創建美觀的 UI**，提供卓越的使用者體驗
+- **開發即時功能**，用於互動式應用程式
+- **現代化舊系統**，採用當前最佳實踐
+- **優化效能**，涵蓋整個技術堆疊
 
-### [**backend-developer**](backend-developer.md) - Server-side expert for scalable APIs
-Your go-to specialist for building robust server applications, RESTful APIs, and microservices. Excels at database design, authentication systems, and performance optimization. Perfect for creating the backbone of your application with Node.js, Python, Java, or other backend technologies.
+## 📋 可用子代理
 
-**Use when:** Building APIs, designing databases, implementing authentication, handling business logic, or optimizing server performance.
+### [**backend-developer**](backend-developer.md) - 可擴展 API 的伺服器端專家
 
-### [**frontend-developer**](frontend-developer.md) - UI/UX specialist for React, Vue, and Angular  
-Master of modern web interfaces who creates responsive, accessible, and performant user experiences. Expert in component architecture, state management, and modern CSS. Transforms designs into pixel-perfect, interactive applications.
+你建構強健伺服器應用程式、RESTful API 和微服務的首選專家。擅長資料庫設計、身份驗證系統和效能優化。非常適合使用 Node.js、Python、Java 或其他後端技術創建應用程式的骨幹。
 
-**Use when:** Creating web interfaces, implementing complex UI components, optimizing frontend performance, or ensuring accessibility compliance.
+**使用時機：** 建構 API、設計資料庫、實作身份驗證、處理業務邏輯或優化伺服器效能。
 
-### [**fullstack-developer**](fullstack-developer.md) - End-to-end feature development
-The versatile expert who seamlessly works across the entire stack. Builds complete features from database to UI, ensuring smooth integration between frontend and backend. Ideal for rapid prototyping and full feature implementation.
+### [**frontend-developer**](frontend-developer.md) - React、Vue 和 Angular 的 UI/UX 專家
 
-**Use when:** Building complete features, prototyping applications, working on small to medium projects, or when you need unified development across the stack.
+現代網頁介面大師，創建響應式、無障礙且高效能的使用者體驗。專精於元件架構、狀態管理和現代 CSS。將設計轉換為像素完美的互動式應用程式。
 
-### [**mobile-developer**](mobile-developer.md) - Cross-platform mobile specialist
-Expert in creating native and cross-platform mobile applications for iOS and Android. Proficient in React Native, Flutter, and native development. Focuses on mobile-specific challenges like offline functionality, push notifications, and app store optimization.
+**使用時機：** 創建網頁介面、實作複雜 UI 元件、優化前端效能或確保無障礙合規性。
 
-**Use when:** Building mobile apps, implementing mobile-specific features, optimizing for mobile performance, or preparing for app store deployment.
+### [**fullstack-developer**](fullstack-developer.md) - 端到端功能開發
 
-### [**electron-pro**](electron-pro.md) - Desktop application expert
-Specialist in building cross-platform desktop applications using web technologies. Masters Electron framework for creating installable desktop apps with native capabilities. Handles auto-updates, system integration, and desktop-specific features.
+多才多藝的專家，能夠無縫地在整個技術堆疊中工作。從資料庫到 UI 建構完整功能，確保前端和後端之間的順暢整合。非常適合快速原型開發和完整功能實作。
 
-**Use when:** Creating desktop applications, porting web apps to desktop, implementing system tray features, or building offline-capable desktop tools.
+**使用時機：** 建構完整功能、原型應用程式、處理中小型專案，或需要跨堆疊統一開發時。
 
-### [**api-designer**](api-designer.md) - REST and GraphQL API architect
-The architect who designs beautiful, intuitive, and scalable APIs. Expert in RESTful principles, GraphQL schemas, API versioning, and documentation. Ensures your APIs are developer-friendly and future-proof.
+### [**mobile-developer**](mobile-developer.md) - 跨平台行動裝置專家
 
-**Use when:** Designing new APIs, refactoring existing endpoints, implementing API standards, or creating comprehensive API documentation.
+專精於為 iOS 和 Android 創建原生和跨平台行動應用程式。熟練使用 React Native、Flutter 和原生開發。專注於行動裝置特定挑戰，如離線功能、推播通知和應用程式商店優化。
 
-### [**graphql-architect**](graphql-architect.md) - GraphQL schema and federation expert
-Specialized in GraphQL ecosystem, from schema design to federation strategies. Masters resolver optimization, subscription patterns, and GraphQL best practices. Perfect for building flexible, efficient data layers.
+**使用時機：** 建構行動應用程式、實作行動裝置特定功能、優化行動裝置效能或準備應用程式商店部署。
 
-**Use when:** Implementing GraphQL APIs, designing schemas, optimizing resolvers, setting up federation, or migrating from REST to GraphQL.
+### [**electron-pro**](electron-pro.md) - 桌面應用程式專家
 
-### [**microservices-architect**](microservices-architect.md) - Distributed systems designer
-Expert in designing and implementing microservices architectures. Handles service decomposition, inter-service communication, distributed transactions, and orchestration. Ensures your system scales horizontally with resilience.
+專精於使用網頁技術建構跨平台桌面應用程式。精通 Electron 框架，用於創建具有原生功能的可安裝桌面應用程式。處理自動更新、系統整合和桌面特定功能。
 
-**Use when:** Breaking monoliths into microservices, designing distributed systems, implementing service mesh, or solving distributed system challenges.
+**使用時機：** 創建桌面應用程式、將網頁應用程式移植到桌面、實作系統托盤功能或建構離線桌面工具。
 
-### [**websocket-engineer**](websocket-engineer.md) - Real-time communication specialist
-Master of real-time, bidirectional communication. Implements WebSocket servers, manages connections at scale, and handles real-time features like chat, notifications, and live updates. Expert in Socket.io and native WebSocket implementations.
+### [**api-designer**](api-designer.md) - REST 和 GraphQL API 架構師
 
-**Use when:** Building chat applications, implementing real-time notifications, creating collaborative features, or developing live-updating dashboards.
+設計美觀、直觀且可擴展 API 的架構師。專精於 RESTful 原則、GraphQL 架構、API 版本控制和文件。確保你的 API 對開發者友善且面向未來。
 
-## 🚀 Quick Selection Guide
+**使用時機：** 設計新 API、重構現有端點、實作 API 標準或創建全面的 API 文件。
 
-| If you need to... | Use this subagent |
-|-------------------|-------------------|
-| Build a REST API with database | **backend-developer** |
-| Create a responsive web UI | **frontend-developer** |
-| Develop a complete web application | **fullstack-developer** |
-| Build a mobile app | **mobile-developer** |
-| Create a desktop application | **electron-pro** |
-| Design a new API structure | **api-designer** |
-| Implement GraphQL | **graphql-architect** |
-| Build a distributed system | **microservices-architect** |
-| Add real-time features | **websocket-engineer** |
+### [**graphql-architect**](graphql-architect.md) - GraphQL 架構和聯邦專家
 
-## 💡 Common Combinations
+專精於 GraphQL 生態系統，從架構設計到聯邦策略。精通解析器優化、訂閱模式和 GraphQL 最佳實踐。非常適合建構靈活、高效的資料層。
 
-**Full-Stack Web Application:**
-- Start with **api-designer** for API structure
-- Use **backend-developer** for server implementation  
-- Employ **frontend-developer** for UI development
+**使用時機：** 實作 GraphQL API、設計架構、優化解析器、設定聯邦或從 REST 遷移到 GraphQL。
 
-**Enterprise System:**
-- Begin with **microservices-architect** for system design
-- Use **graphql-architect** for data layer
-- Add **backend-developer** for service implementation
+### [**microservices-architect**](microservices-architect.md) - 分散式系統設計師
 
-**Real-time Application:**
-- Start with **websocket-engineer** for real-time infrastructure
-- Add **backend-developer** for business logic
-- Use **frontend-developer** for interactive UI
+專精於設計和實作微服務架構。處理服務分解、服務間通訊、分散式交易和編排。確保你的系統能夠水平擴展並具有韌性。
 
-## 🎬 Getting Started
+**使用時機：** 將單體應用程式拆分為微服務、設計分散式系統、實作服務網格或解決分散式系統挑戰。
 
-1. **Choose the right subagent** based on your specific needs
-2. **Provide clear context** about your project requirements
-3. **Specify your tech stack** preferences if any
-4. **Describe your constraints** (performance, scalability, timeline)
-5. **Let the subagent guide you** through best practices and implementation
+### [**websocket-engineer**](websocket-engineer.md) - 即時通訊專家
 
-Each subagent comes with:
-- Deep expertise in their domain
-- Knowledge of current best practices
-- Ability to work with your existing codebase
-- Focus on clean, maintainable code
-- Understanding of production requirements
+即時雙向通訊大師。實作 WebSocket 伺服器、大規模管理連接，並處理聊天、通知和即時更新等即時功能。專精於 Socket.io 和原生 WebSocket 實作。
 
-## 📚 Best Practices
+**使用時機：** 建構聊天應用程式、實作即時通知、創建協作功能或開發即時更新儀表板。
 
-- **Start with architecture:** Use architects (API, GraphQL, Microservices) before implementation
-- **Iterate frequently:** Work with subagents in short cycles for better results
-- **Combine expertise:** Use multiple subagents for complex projects
-- **Follow conventions:** Each subagent knows the best practices for their domain
-- **Think production-ready:** All subagents consider scalability, security, and maintenance
+## 🚀 快速選擇指南
 
-Choose your subagent and start building amazing applications today!
+| 如果你需要...           | 使用這個子代理              |
+| ----------------------- | --------------------------- |
+| 建構帶資料庫的 REST API | **backend-developer**       |
+| 創建響應式網頁 UI       | **frontend-developer**      |
+| 開發完整的網頁應用程式  | **fullstack-developer**     |
+| 建構行動應用程式        | **mobile-developer**        |
+| 創建桌面應用程式        | **electron-pro**            |
+| 設計新的 API 結構       | **api-designer**            |
+| 實作 GraphQL            | **graphql-architect**       |
+| 建構分散式系統          | **microservices-architect** |
+| 新增即時功能            | **websocket-engineer**      |
+
+## 💡 常見組合
+
+**全端網頁應用程式：**
+
+- 從 **api-designer** 開始進行 API 結構設計
+- 使用 **backend-developer** 進行伺服器實作
+- 採用 **frontend-developer** 進行 UI 開發
+
+**企業系統：**
+
+- 從 **microservices-architect** 開始進行系統設計
+- 使用 **graphql-architect** 建構資料層
+- 新增 **backend-developer** 進行服務實作
+
+**即時應用程式：**
+
+- 從 **websocket-engineer** 開始建構即時基礎設施
+- 新增 **backend-developer** 處理業務邏輯
+- 使用 **frontend-developer** 建構互動式 UI
+
+## 🎬 開始使用
+
+1. **根據具體需求選擇合適的子代理**
+2. **提供清晰的專案需求上下文**
+3. **指定技術堆疊偏好**（如有）
+4. **描述限制條件**（效能、可擴展性、時程）
+5. **讓子代理引導你**了解最佳實踐和實作
+
+每個子代理都具備：
+
+- 其領域的深度專業知識
+- 當前最佳實踐的知識
+- 與現有程式碼庫協作的能力
+- 專注於乾淨、可維護的程式碼
+- 對生產需求的理解
+
+## 📚 最佳實踐
+
+- **從架構開始：** 在實作前使用架構師（API、GraphQL、微服務）
+- **頻繁迭代：** 與子代理進行短週期工作以獲得更好結果
+- **結合專業知識：** 在複雜專案中使用多個子代理
+- **遵循慣例：** 每個子代理都了解其領域的最佳實踐
+- **考慮生產就緒：** 所有子代理都考慮可擴展性、安全性和維護性
+
+選擇你的子代理，今天就開始建構令人驚豔的應用程式！

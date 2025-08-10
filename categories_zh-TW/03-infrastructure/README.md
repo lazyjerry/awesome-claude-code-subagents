@@ -1,141 +1,158 @@
-# Infrastructure Subagents
+# 基礎設施子代理
 
-Infrastructure subagents are your DevOps and cloud computing experts, specializing in building, deploying, and maintaining modern infrastructure. These specialists handle everything from CI/CD pipelines to cloud architecture, from container orchestration to database administration. They ensure your applications run reliably, scale efficiently, and deploy seamlessly across any environment.
+基礎設施子代理是你的 DevOps 和雲端運算專家，專精於建構、部署和維護現代基礎設施。這些專家處理從 CI/CD 管道到雲端架構，從容器編排到資料庫管理的一切事務。他們確保你的應用程式可靠運行、高效擴展，並在任何環境中無縫部署。
 
-## <� When to Use Infrastructure Subagents
+## 🎯 何時使用基礎設施子代理
 
-Use these subagents when you need to:
-- **Design cloud architectures** for scalability and reliability
-- **Implement CI/CD pipelines** for automated deployments
-- **Orchestrate containers** with Kubernetes and Docker
-- **Manage infrastructure as code** with modern tools
-- **Optimize database performance** and administration
-- **Set up monitoring and observability** systems
-- **Respond to incidents** and ensure high availability
-- **Secure infrastructure** and implement best practices
+在以下情況下使用這些子代理：
 
-## =� Available Subagents
+- **設計雲端架構**以實現可擴展性和可靠性
+- **實作 CI/CD 管道**進行自動化部署
+- **使用 Kubernetes 和 Docker 編排容器**
+- **使用現代工具管理基礎設施即程式碼**
+- **優化資料庫效能**和管理
+- **設定監控和可觀測性**系統
+- **回應事件**並確保高可用性
+- **保護基礎設施**並實作最佳實踐
 
-### [**cloud-architect**](cloud-architect.md) - AWS/GCP/Azure specialist
-Multi-cloud expert designing scalable, cost-effective cloud solutions. Masters cloud-native architectures, serverless patterns, and cloud migration strategies. Ensures optimal resource utilization across major cloud providers.
+## 📋 可用子代理
 
-**Use when:** Designing cloud architectures, migrating to cloud, optimizing cloud costs, implementing multi-cloud strategies, or choosing cloud services.
+### [**cloud-architect**](cloud-architect.md) - AWS/GCP/Azure 專家
 
-### [**database-administrator**](database-administrator.md) - Database management expert
-Database specialist managing relational and NoSQL databases at scale. Expert in performance tuning, replication, backup strategies, and high availability. Ensures data integrity and optimal database performance.
+多雲專家，設計可擴展、成本效益的雲端解決方案。精通雲原生架構、無伺服器模式和雲端遷移策略。確保主要雲端提供商的最佳資源利用。
 
-**Use when:** Setting up databases, optimizing query performance, implementing backup strategies, designing database schemas, or troubleshooting database issues.
+**使用時機：** 設計雲端架構、遷移到雲端、優化雲端成本、實作多雲策略，或選擇雲端服務。
 
-### [**deployment-engineer**](deployment-engineer.md) - Deployment automation specialist
-Deployment expert automating application releases across environments. Masters blue-green deployments, canary releases, and rollback strategies. Ensures zero-downtime deployments with confidence.
+### [**database-administrator**](database-administrator.md) - 資料庫管理專家
 
-**Use when:** Setting up deployment pipelines, implementing release strategies, automating deployments, managing environments, or ensuring deployment reliability.
+資料庫專家，大規模管理關聯式和 NoSQL 資料庫。專精於效能調整、複製、備份策略和高可用性。確保資料完整性和最佳資料庫效能。
 
-### [**devops-engineer**](devops-engineer.md) - CI/CD and automation expert
-DevOps practitioner bridging development and operations. Expert in CI/CD pipelines, automation tools, and DevOps culture. Accelerates delivery while maintaining stability and security.
+**使用時機：** 設定資料庫、優化查詢效能、實作備份策略、設計資料庫架構，或排除資料庫問題。
 
-**Use when:** Building CI/CD pipelines, automating workflows, implementing DevOps practices, setting up development environments, or improving deployment velocity.
+### [**deployment-engineer**](deployment-engineer.md) - 部署自動化專家
 
-### [**devops-incident-responder**](devops-incident-responder.md) - DevOps incident management
-Incident response specialist for DevOps environments. Masters troubleshooting, root cause analysis, and incident management. Minimizes downtime and prevents future incidents through systematic approaches.
+部署專家，自動化跨環境的應用程式發布。精通藍綠部署、金絲雀發布和回滾策略。確保零停機部署並充滿信心。
 
-**Use when:** Responding to production incidents, setting up incident management processes, performing root cause analysis, or implementing incident prevention measures.
+**使用時機：** 設定部署管道、實作發布策略、自動化部署、管理環境，或確保部署可靠性。
 
-### [**incident-responder**](incident-responder.md) - System incident response expert
-Critical incident specialist handling system outages and emergencies. Expert in rapid diagnosis, recovery procedures, and post-mortem analysis. Restores service quickly while learning from failures.
+### [**devops-engineer**](devops-engineer.md) - CI/CD 和自動化專家
 
-**Use when:** Managing critical incidents, developing incident response plans, conducting post-mortems, or training incident response teams.
+DevOps 實踐者，連接開發和營運。專精於 CI/CD 管道、自動化工具和 DevOps 文化。在保持穩定性和安全性的同時加速交付。
 
-### [**kubernetes-specialist**](kubernetes-specialist.md) - Container orchestration master
-Kubernetes expert managing containerized applications at scale. Masters cluster design, workload optimization, and Kubernetes ecosystem tools. Ensures reliable container orchestration in production.
+**使用時機：** 建構 CI/CD 管道、自動化工作流程、實作 DevOps 實踐、設定開發環境，或提高部署速度。
 
-**Use when:** Deploying to Kubernetes, designing cluster architecture, optimizing workloads, implementing service mesh, or troubleshooting Kubernetes issues.
+### [**devops-incident-responder**](devops-incident-responder.md) - DevOps 事件管理
 
-### [**network-engineer**](network-engineer.md) - Network infrastructure specialist
-Network architecture expert designing secure, performant networks. Masters SDN, load balancing, and network security. Ensures reliable connectivity and optimal network performance.
+DevOps 環境的事件回應專家。精通故障排除、根本原因分析和事件管理。通過系統化方法最小化停機時間並防止未來事件。
 
-**Use when:** Designing network architectures, implementing load balancers, setting up VPNs, optimizing network performance, or troubleshooting connectivity.
+**使用時機：** 回應生產事件、設定事件管理流程、執行根本原因分析，或實作事件預防措施。
 
-### [**platform-engineer**](platform-engineer.md) - Platform architecture expert
-Platform specialist building internal developer platforms. Creates self-service infrastructure, golden paths, and platform abstractions. Empowers developers while maintaining governance.
+### [**incident-responder**](incident-responder.md) - 系統事件回應專家
 
-**Use when:** Building internal platforms, creating developer portals, implementing platform engineering, standardizing infrastructure, or improving developer productivity.
+處理系統中斷和緊急情況的關鍵事件專家。專精於快速診斷、恢復程序和事後分析。快速恢復服務，同時從失敗中學習。
 
-### [**security-engineer**](security-engineer.md) - Infrastructure security specialist
-Security expert protecting infrastructure and applications. Masters security hardening, compliance, and threat prevention. Implements defense-in-depth strategies across all layers.
+**使用時機：** 管理關鍵事件、制定事件回應計劃、進行事後檢討，或培訓事件回應團隊。
 
-**Use when:** Securing infrastructure, implementing security policies, achieving compliance, performing security audits, or responding to security incidents.
+### [**kubernetes-specialist**](kubernetes-specialist.md) - 容器編排大師
 
-### [**sre-engineer**](sre-engineer.md) - Site reliability engineering expert
-SRE practitioner ensuring system reliability through engineering. Masters SLIs/SLOs, error budgets, and chaos engineering. Balances feature velocity with system stability.
+Kubernetes 專家，大規模管理容器化應用程式。精通叢集設計、工作負載優化和 Kubernetes 生態系統工具。確保生產環境中可靠的容器編排。
 
-**Use when:** Implementing SRE practices, defining SLOs, setting up monitoring, performing chaos engineering, or improving system reliability.
+**使用時機：** 部署到 Kubernetes、設計叢集架構、優化工作負載、實作服務網格，或排除 Kubernetes 問題。
 
-### [**terraform-engineer**](terraform-engineer.md) - Infrastructure as Code expert
-IaC specialist using Terraform for infrastructure automation. Masters module design, state management, and multi-environment deployments. Ensures infrastructure consistency and repeatability.
+### [**network-engineer**](network-engineer.md) - 網路基礎設施專家
 
-**Use when:** Writing Terraform code, designing IaC architecture, managing Terraform state, creating reusable modules, or automating infrastructure provisioning.
+網路架構專家，設計安全、高效能的網路。精通 SDN、負載平衡和網路安全。確保可靠的連接性和最佳網路效能。
 
-## =� Quick Selection Guide
+**使用時機：** 設計網路架構、實作負載平衡器、設定 VPN、優化網路效能，或排除連接問題。
 
-| If you need to... | Use this subagent |
-|-------------------|-------------------|
-| Design cloud architecture | **cloud-architect** |
-| Manage databases | **database-administrator** |
-| Automate deployments | **deployment-engineer** |
-| Build CI/CD pipelines | **devops-engineer** |
-| Handle DevOps incidents | **devops-incident-responder** |
-| Manage critical outages | **incident-responder** |
-| Deploy with Kubernetes | **kubernetes-specialist** |
-| Design networks | **network-engineer** |
-| Build developer platforms | **platform-engineer** |
-| Secure infrastructure | **security-engineer** |
-| Implement SRE practices | **sre-engineer** |
-| Write infrastructure code | **terraform-engineer** |
+### [**platform-engineer**](platform-engineer.md) - 平台架構專家
 
-## =� Common Infrastructure Patterns
+平台專家，建構內部開發者平台。創建自助服務基礎設施、黃金路徑和平台抽象。在維持治理的同時賦能開發者。
 
-**Cloud-Native Application:**
-- **cloud-architect** for architecture design
-- **kubernetes-specialist** for container orchestration
-- **devops-engineer** for CI/CD pipeline
-- **sre-engineer** for reliability
+**使用時機：** 建構內部平台、創建開發者入口、實作平台工程、標準化基礎設施，或提高開發者生產力。
 
-**Enterprise Infrastructure:**
-- **terraform-engineer** for IaC
-- **network-engineer** for networking
-- **security-engineer** for security
-- **database-administrator** for data layer
+### [**security-engineer**](security-engineer.md) - 基礎設施安全專家
 
-**Platform Engineering:**
-- **platform-engineer** for platform design
-- **deployment-engineer** for deployment automation
-- **devops-engineer** for tooling
-- **cloud-architect** for infrastructure
+保護基礎設施和應用程式的安全專家。精通安全強化、合規性和威脅預防。在所有層級實作深度防禦策略。
 
-**Incident Management:**
-- **incident-responder** for critical incidents
-- **devops-incident-responder** for DevOps issues
-- **sre-engineer** for prevention
-- **security-engineer** for security incidents
+**使用時機：** 保護基礎設施、實作安全政策、達成合規、執行安全稽核，或回應安全事件。
 
-## <� Getting Started
+### [**sre-engineer**](sre-engineer.md) - 網站可靠性工程專家
 
-1. **Assess your infrastructure needs** and current challenges
-2. **Choose the appropriate specialist** based on your requirements
-3. **Provide context** about your environment and constraints
-4. **Share existing configurations** if applicable
-5. **Follow the specialist's recommendations** for best practices
+SRE 實踐者，通過工程確保系統可靠性。精通 SLI/SLO、錯誤預算和混沌工程。平衡功能速度與系統穩定性。
 
-## =� Best Practices
+**使用時機：** 實作 SRE 實踐、定義 SLO、設定監控、執行混沌工程，或提高系統可靠性。
 
-- **Start with architecture:** Design before implementation
-- **Automate everything:** Manual processes don't scale
-- **Security first:** Build security into every layer
-- **Monitor proactively:** Observability prevents incidents
-- **Document thoroughly:** Future you will thank you
-- **Test infrastructure:** Infrastructure code needs testing too
-- **Plan for failure:** Design for resilience
-- **Iterate continuously:** Infrastructure evolves with needs
+### [**terraform-engineer**](terraform-engineer.md) - 基礎設施即程式碼專家
 
-Choose your infrastructure specialist and build reliable systems today!
+IaC 專家，使用 Terraform 進行基礎設施自動化。精通模組設計、狀態管理和多環境部署。確保基礎設施一致性和可重複性。
+
+**使用時機：** 編寫 Terraform 程式碼、設計 IaC 架構、管理 Terraform 狀態、創建可重用模組，或自動化基礎設施佈建。
+
+## 🚀 快速選擇指南
+
+| 如果你需要...        | 使用這個子代理                |
+| -------------------- | ----------------------------- |
+| 設計雲端架構         | **cloud-architect**           |
+| 管理資料庫           | **database-administrator**    |
+| 自動化部署           | **deployment-engineer**       |
+| 建構 CI/CD 管道      | **devops-engineer**           |
+| 處理 DevOps 事件     | **devops-incident-responder** |
+| 管理關鍵中斷         | **incident-responder**        |
+| 使用 Kubernetes 部署 | **kubernetes-specialist**     |
+| 設計網路             | **network-engineer**          |
+| 建構開發者平台       | **platform-engineer**         |
+| 保護基礎設施         | **security-engineer**         |
+| 實作 SRE 實踐        | **sre-engineer**              |
+| 編寫基礎設施程式碼   | **terraform-engineer**        |
+
+## 💡 常見基礎設施模式
+
+**雲原生應用程式：**
+
+- **cloud-architect** 進行架構設計
+- **kubernetes-specialist** 進行容器編排
+- **devops-engineer** 建構 CI/CD 管道
+- **sre-engineer** 確保可靠性
+
+**企業基礎設施：**
+
+- **terraform-engineer** 處理 IaC
+- **network-engineer** 處理網路
+- **security-engineer** 處理安全
+- **database-administrator** 處理資料層
+
+**平台工程：**
+
+- **platform-engineer** 進行平台設計
+- **deployment-engineer** 進行部署自動化
+- **devops-engineer** 處理工具
+- **cloud-architect** 處理基礎設施
+
+**事件管理：**
+
+- **incident-responder** 處理關鍵事件
+- **devops-incident-responder** 處理 DevOps 問題
+- **sre-engineer** 進行預防
+- **security-engineer** 處理安全事件
+
+## 🎬 開始使用
+
+1. **評估你的基礎設施需求**和當前挑戰
+2. **根據需求選擇適當的專家**
+3. **提供環境和限制的上下文**
+4. **如適用，分享現有配置**
+5. **遵循專家的最佳實踐建議**
+
+## 📚 最佳實踐
+
+- **從架構開始：** 實作前先設計
+- **自動化一切：** 手動流程無法擴展
+- **安全優先：** 在每一層都建構安全
+- **主動監控：** 可觀測性預防事件
+- **徹底記錄：** 未來的你會感謝你
+- **測試基礎設施：** 基礎設施程式碼也需要測試
+- **為失敗做計劃：** 為韌性而設計
+- **持續迭代：** 基礎設施隨需求演進
+
+選擇你的基礎設施專家，今天就開始建構可靠的系統！

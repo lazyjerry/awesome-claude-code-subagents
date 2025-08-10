@@ -1,141 +1,158 @@
-# Data & AI Subagents
+# 資料與 AI 子代理
 
-Data & AI subagents are your specialists in the world of data engineering, machine learning, and artificial intelligence. These experts handle everything from building robust data pipelines to training sophisticated ML models, from optimizing databases to deploying AI systems at scale. They bridge the gap between raw data and intelligent applications, ensuring your data-driven solutions are efficient, scalable, and impactful.
+資料與 AI 子代理是您在資料工程、機器學習和人工智慧領域的專家。這些專家處理從建置穩健資料管道到訓練複雜 ML 模型的一切，從優化資料庫到大規模部署 AI 系統。他們在原始資料和智慧應用程式之間架起橋樑，確保您的資料驅動解決方案高效、可擴展且具有影響力。
 
-## <� When to Use Data & AI Subagents
+## 🎯 何時使用資料與 AI 子代理
 
-Use these subagents when you need to:
-- **Build data pipelines** for ETL/ELT workflows
-- **Train machine learning models** for predictions and insights
-- **Design AI systems** for production deployment
-- **Optimize database performance** at scale
-- **Implement NLP solutions** for text processing
-- **Create computer vision** applications
-- **Deploy ML models** with MLOps best practices
-- **Analyze data** for business insights
+在您需要以下情況時使用這些子代理：
 
-## =� Available Subagents
+- **建置資料管道**用於 ETL/ELT 工作流程
+- **訓練機器學習模型**進行預測和洞察
+- **設計 AI 系統**用於生產部署
+- **大規模優化資料庫效能**
+- **實作 NLP 解決方案**用於文字處理
+- **建立電腦視覺**應用程式
+- **使用 MLOps 最佳實務部署 ML 模型**
+- **分析資料**獲得業務洞察
 
-### [**ai-engineer**](ai-engineer.md) - AI system design and deployment expert
-AI systems specialist building production-ready artificial intelligence solutions. Masters model deployment, scaling, and integration. Bridges the gap between AI research and real-world applications.
+## 🚀 可用的子代理
 
-**Use when:** Deploying AI models to production, designing AI system architectures, integrating AI into applications, scaling AI services, or implementing AI pipelines.
+### [**ai-engineer**](ai-engineer.md) - AI 系統設計和部署專家
 
-### [**data-analyst**](data-analyst.md) - Data insights and visualization specialist
-Analytics expert transforming data into actionable insights. Masters statistical analysis, data visualization, and business intelligence tools. Tells compelling stories with data.
+AI 系統專家建置生產就緒的人工智慧解決方案。精通模型部署、擴展和整合。在 AI 研究和實際應用之間架起橋樑。
 
-**Use when:** Analyzing business data, creating dashboards, performing statistical analysis, building reports, or discovering data insights.
+**使用時機：** 部署 AI 模型到生產環境、設計 AI 系統架構、整合 AI 到應用程式、擴展 AI 服務或實作 AI 管道。
 
-### [**data-engineer**](data-engineer.md) - Data pipeline architect
-Data infrastructure specialist building scalable data pipelines. Expert in ETL/ELT processes, data warehousing, and streaming architectures. Ensures data flows reliably from source to insight.
+### [**data-analyst**](data-analyst.md) - 資料洞察和視覺化專家
 
-**Use when:** Building data pipelines, designing data architectures, implementing ETL processes, setting up data warehouses, or handling big data processing.
+分析專家將資料轉化為可行的洞察。精通統計分析、資料視覺化和商業智慧工具。用資料說出引人入勝的故事。
 
-### [**data-scientist**](data-scientist.md) - Analytics and insights expert
-Data science practitioner combining statistics, machine learning, and domain expertise. Masters predictive modeling, experimentation, and advanced analytics. Extracts value from complex datasets.
+**使用時機：** 分析業務資料、建立儀表板、執行統計分析、建置報告或發現資料洞察。
 
-**Use when:** Building predictive models, conducting experiments, performing advanced analytics, developing ML algorithms, or solving complex data problems.
+### [**data-engineer**](data-engineer.md) - 資料管道架構師
 
-### [**database-optimizer**](database-optimizer.md) - Database performance specialist
-Database performance expert ensuring queries run at lightning speed. Masters indexing strategies, query optimization, and database tuning. Makes databases perform at their peak.
+資料基礎架構專家建置可擴展的資料管道。專精於 ETL/ELT 流程、資料倉儲和串流架構。確保資料從來源到洞察的可靠流動。
 
-**Use when:** Optimizing slow queries, designing efficient schemas, implementing indexing strategies, tuning database performance, or scaling databases.
+**使用時機：** 建置資料管道、設計資料架構、實作 ETL 流程、設定資料倉儲或處理大數據處理。
 
-### [**llm-architect**](llm-architect.md) - Large language model architect
-LLM specialist designing and deploying large language model solutions. Expert in prompt engineering, fine-tuning, and LLM applications. Harnesses the power of modern language models.
+### [**data-scientist**](data-scientist.md) - 分析和洞察專家
 
-**Use when:** Implementing LLM solutions, designing prompt strategies, fine-tuning models, building chatbots, or creating AI-powered applications.
+資料科學實踐者結合統計學、機器學習和領域專業知識。精通預測建模、實驗和進階分析。從複雜資料集中提取價值。
 
-### [**machine-learning-engineer**](machine-learning-engineer.md) - Machine learning systems expert
-ML engineering specialist building end-to-end machine learning systems. Masters the entire ML lifecycle from data to deployment. Ensures models work reliably in production.
+**使用時機：** 建置預測模型、進行實驗、執行進階分析、開發 ML 演算法或解決複雜資料問題。
 
-**Use when:** Building ML pipelines, implementing ML systems, deploying models, creating ML infrastructure, or productionizing ML solutions.
+### [**database-optimizer**](database-optimizer.md) - 資料庫效能專家
 
-### [**ml-engineer**](ml-engineer.md) - Machine learning specialist
-Machine learning expert developing and optimizing ML models. Proficient in various algorithms, frameworks, and techniques. Solves complex problems with machine learning.
+資料庫效能專家確保查詢以閃電般的速度執行。精通索引策略、查詢優化和資料庫調校。讓資料庫發揮巔峰效能。
 
-**Use when:** Training ML models, selecting algorithms, optimizing model performance, implementing ML solutions, or experimenting with new techniques.
+**使用時機：** 優化慢查詢、設計高效架構、實作索引策略、調校資料庫效能或擴展資料庫。
 
-### [**mlops-engineer**](mlops-engineer.md) - MLOps and model deployment expert
-MLOps specialist ensuring smooth ML model deployment and operations. Masters CI/CD for ML, model monitoring, and versioning. Brings DevOps practices to machine learning.
+### [**llm-architect**](llm-architect.md) - 大型語言模型架構師
 
-**Use when:** Setting up ML pipelines, implementing model monitoring, automating ML workflows, managing model versions, or establishing MLOps practices.
+LLM 專家設計和部署大型語言模型解決方案。專精於提示工程、微調和 LLM 應用程式。駕馭現代語言模型的力量。
 
-### [**nlp-engineer**](nlp-engineer.md) - Natural language processing expert
-NLP specialist building systems that understand and generate human language. Expert in text processing, language models, and linguistic analysis. Makes machines understand text.
+**使用時機：** 實作 LLM 解決方案、設計提示策略、微調模型、建置聊天機器人或建立 AI 驅動的應用程式。
 
-**Use when:** Building text processing systems, implementing chatbots, analyzing sentiment, extracting information from text, or developing language understanding features.
+### [**machine-learning-engineer**](machine-learning-engineer.md) - 機器學習系統專家
 
-### [**postgres-pro**](postgres-pro.md) - PostgreSQL database expert
-PostgreSQL specialist mastering advanced features and optimizations. Expert in complex queries, performance tuning, and PostgreSQL-specific capabilities. Unlocks PostgreSQL's full potential.
+ML 工程專家建置端到端機器學習系統。精通從資料到部署的整個 ML 生命週期。確保模型在生產環境中可靠運作。
 
-**Use when:** Working with PostgreSQL, optimizing Postgres queries, implementing advanced features, designing PostgreSQL schemas, or troubleshooting Postgres issues.
+**使用時機：** 建置 ML 管道、實作 ML 系統、部署模型、建立 ML 基礎架構或將 ML 解決方案產品化。
 
-### [**prompt-engineer**](prompt-engineer.md) - Prompt optimization specialist
-Prompt engineering expert crafting effective prompts for AI models. Masters prompt design, testing, and optimization. Maximizes AI model performance through strategic prompting.
+### [**ml-engineer**](ml-engineer.md) - 機器學習專家
 
-**Use when:** Designing prompts for LLMs, optimizing AI responses, implementing prompt strategies, testing prompt effectiveness, or building prompt-based applications.
+機器學習專家開發和優化 ML 模型。熟練掌握各種演算法、框架和技術。用機器學習解決複雜問題。
 
-## =� Quick Selection Guide
+**使用時機：** 訓練 ML 模型、選擇演算法、優化模型效能、實作 ML 解決方案或實驗新技術。
 
-| If you need to... | Use this subagent |
-|-------------------|-------------------|
-| Deploy AI systems | **ai-engineer** |
-| Analyze business data | **data-analyst** |
-| Build data pipelines | **data-engineer** |
-| Create ML models | **data-scientist** |
-| Optimize databases | **database-optimizer** |
-| Work with LLMs | **llm-architect** |
-| Build ML systems | **machine-learning-engineer** |
-| Train ML models | **ml-engineer** |
-| Deploy ML models | **mlops-engineer** |
-| Process text data | **nlp-engineer** |
-| Optimize PostgreSQL | **postgres-pro** |
-| Design AI prompts | **prompt-engineer** |
+### [**mlops-engineer**](mlops-engineer.md) - MLOps 和模型部署專家
 
-## =� Common Data & AI Patterns
+MLOps 專家確保 ML 模型部署和營運的順暢。精通 ML 的 CI/CD、模型監控和版本控制。將 DevOps 實務帶入機器學習。
 
-**End-to-End ML System:**
-- **data-engineer** for data pipeline
-- **data-scientist** for model development
-- **ml-engineer** for model optimization
-- **mlops-engineer** for deployment
+**使用時機：** 設定 ML 管道、實作模型監控、自動化 ML 工作流程、管理模型版本或建立 MLOps 實務。
 
-**AI Application:**
-- **llm-architect** for LLM integration
-- **prompt-engineer** for prompt optimization
-- **ai-engineer** for system design
-- **nlp-engineer** for text processing
+### [**nlp-engineer**](nlp-engineer.md) - 自然語言處理專家
 
-**Data Platform:**
-- **data-engineer** for infrastructure
-- **database-optimizer** for performance
-- **postgres-pro** for PostgreSQL
-- **data-analyst** for insights
+NLP 專家建置理解和生成人類語言的系統。專精於文字處理、語言模型和語言分析。讓機器理解文字。
 
-**Production ML:**
-- **machine-learning-engineer** for ML systems
-- **mlops-engineer** for operations
-- **ai-engineer** for deployment
-- **data-engineer** for data flow
+**使用時機：** 建置文字處理系統、實作聊天機器人、分析情感、從文字中提取資訊或開發語言理解功能。
 
-## <� Getting Started
+### [**postgres-pro**](postgres-pro.md) - PostgreSQL 資料庫專家
 
-1. **Define your data/AI objectives** clearly
-2. **Assess your data landscape** and requirements
-3. **Choose appropriate specialists** for your needs
-4. **Provide data context** and constraints
-5. **Follow best practices** for implementation
+PostgreSQL 專家精通進階功能和優化。專精於複雜查詢、效能調校和 PostgreSQL 特定能力。釋放 PostgreSQL 的全部潛力。
 
-## =� Best Practices
+**使用時機：** 使用 PostgreSQL、優化 Postgres 查詢、實作進階功能、設計 PostgreSQL 架構或排除 Postgres 問題。
 
-- **Start with data quality:** Good models need good data
-- **Iterate quickly:** ML is experimental by nature
-- **Monitor everything:** Models drift, data changes
-- **Version control:** Track data, code, and models
-- **Document thoroughly:** ML systems are complex
-- **Test rigorously:** Validate models before production
-- **Scale gradually:** Start small, prove value
-- **Stay ethical:** Consider AI's impact
+### [**prompt-engineer**](prompt-engineer.md) - 提示優化專家
 
-Choose your data & AI specialist and unlock the power of your data today!
+提示工程專家為 AI 模型製作有效的提示。精通提示設計、測試和優化。透過策略性提示最大化 AI 模型效能。
+
+**使用時機：** 為 LLM 設計提示、優化 AI 回應、實作提示策略、測試提示效果或建置基於提示的應用程式。
+
+## 🎯 快速選擇指南
+
+| 如果您需要...   | 使用此子代理                  |
+| --------------- | ----------------------------- |
+| 部署 AI 系統    | **ai-engineer**               |
+| 分析業務資料    | **data-analyst**              |
+| 建置資料管道    | **data-engineer**             |
+| 建立 ML 模型    | **data-scientist**            |
+| 優化資料庫      | **database-optimizer**        |
+| 使用 LLM        | **llm-architect**             |
+| 建置 ML 系統    | **machine-learning-engineer** |
+| 訓練 ML 模型    | **ml-engineer**               |
+| 部署 ML 模型    | **mlops-engineer**            |
+| 處理文字資料    | **nlp-engineer**              |
+| 優化 PostgreSQL | **postgres-pro**              |
+| 設計 AI 提示    | **prompt-engineer**           |
+
+## 🔄 常見資料與 AI 模式
+
+**端到端 ML 系統：**
+
+- **data-engineer** 負責資料管道
+- **data-scientist** 負責模型開發
+- **ml-engineer** 負責模型優化
+- **mlops-engineer** 負責部署
+
+**AI 應用程式：**
+
+- **llm-architect** 負責 LLM 整合
+- **prompt-engineer** 負責提示優化
+- **ai-engineer** 負責系統設計
+- **nlp-engineer** 負責文字處理
+
+**資料平台：**
+
+- **data-engineer** 負責基礎架構
+- **database-optimizer** 負責效能
+- **postgres-pro** 負責 PostgreSQL
+- **data-analyst** 負責洞察
+
+**生產 ML：**
+
+- **machine-learning-engineer** 負責 ML 系統
+- **mlops-engineer** 負責營運
+- **ai-engineer** 負責部署
+- **data-engineer** 負責資料流
+
+## 🚀 開始使用
+
+1. **清楚定義您的資料/AI 目標**
+2. **評估您的資料環境**和需求
+3. **選擇適當的專家**滿足您的需求
+4. **提供資料上下文**和限制
+5. **遵循最佳實務**進行實作
+
+## 📋 最佳實務
+
+- **從資料品質開始：** 好的模型需要好的資料
+- **快速迭代：** ML 本質上是實驗性的
+- **監控一切：** 模型會漂移，資料會變化
+- **版本控制：** 追蹤資料、程式碼和模型
+- **徹底記錄：** ML 系統很複雜
+- **嚴格測試：** 在生產前驗證模型
+- **逐步擴展：** 從小開始，證明價值
+- **保持道德：** 考慮 AI 的影響
+
+選擇您的資料與 AI 專家，今天就釋放您資料的力量！

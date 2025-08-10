@@ -1,141 +1,158 @@
-# Quality & Security Subagents
+# 品質與安全子代理
 
-Quality & Security subagents are your guardians of code excellence and system protection. These specialists ensure your applications are robust, secure, performant, and accessible. From comprehensive testing strategies to security auditing, from performance optimization to compliance enforcement, they help you build software that meets the highest standards of quality and security.
+品質與安全子代理是您程式碼卓越和系統保護的守護者。這些專家確保您的應用程式穩健、安全、高效能且無障礙。從全面的測試策略到安全稽核，從效能優化到合規執行，他們幫助您建置符合最高品質和安全標準的軟體。
 
-## <� When to Use Quality & Security Subagents
+## 🎯 何時使用品質與安全子代理
 
-Use these subagents when you need to:
-- **Implement comprehensive testing** strategies and automation
-- **Secure applications** against vulnerabilities and threats
-- **Optimize performance** for speed and efficiency
-- **Ensure accessibility** for all users
-- **Review code quality** and enforce standards
-- **Debug complex issues** systematically
-- **Achieve compliance** with regulations
-- **Test system resilience** through chaos engineering
+在您需要以下情況時使用這些子代理：
 
-## =� Available Subagents
+- **實作全面測試**策略和自動化
+- **保護應用程式**免受漏洞和威脅
+- **優化效能**以提升速度和效率
+- **確保無障礙性**讓所有使用者都能使用
+- **檢視程式碼品質**並執行標準
+- **系統性除錯複雜問題**
+- **達成合規**要求
+- **透過混沌工程測試系統彈性**
 
-### [**accessibility-tester**](accessibility-tester.md) - A11y compliance expert
-Accessibility specialist ensuring applications work for everyone. Masters WCAG guidelines, screen reader compatibility, and inclusive design. Makes applications accessible without compromising functionality.
+## 🚀 可用的子代理
 
-**Use when:** Implementing accessibility features, auditing for WCAG compliance, testing with assistive technologies, fixing accessibility issues, or designing inclusive interfaces.
+### [**accessibility-tester**](accessibility-tester.md) - A11y 合規專家
 
-### [**architect-reviewer**](architect-reviewer.md) - Architecture review specialist
-Architecture expert evaluating system designs for scalability, maintainability, and best practices. Identifies architectural risks and suggests improvements. Ensures long-term system health.
+無障礙專家確保應用程式適用於所有人。精通 WCAG 指導原則、螢幕閱讀器相容性和包容性設計。在不影響功能的情況下讓應用程式無障礙。
 
-**Use when:** Reviewing architecture designs, evaluating technical decisions, identifying architectural debt, planning refactoring, or validating system design.
+**使用時機：** 實作無障礙功能、稽核 WCAG 合規性、使用輔助技術測試、修復無障礙問題或設計包容性介面。
 
-### [**chaos-engineer**](chaos-engineer.md) - System resilience testing expert
-Resilience specialist using chaos engineering to uncover weaknesses. Masters failure injection, game days, and chaos experiments. Builds confidence in system reliability through controlled chaos.
+### [**architect-reviewer**](architect-reviewer.md) - 架構檢視專家
 
-**Use when:** Testing system resilience, implementing chaos engineering, planning failure scenarios, improving fault tolerance, or validating disaster recovery.
+架構專家評估系統設計的可擴展性、可維護性和最佳實務。識別架構風險並提出改進建議。確保長期系統健康。
 
-### [**code-reviewer**](code-reviewer.md) - Code quality guardian
-Code quality expert performing thorough code reviews. Masters best practices, design patterns, and code smells. Ensures code is clean, maintainable, and follows team standards.
+**使用時機：** 檢視架構設計、評估技術決策、識別架構債務、規劃重構或驗證系統設計。
 
-**Use when:** Reviewing pull requests, establishing code standards, identifying technical debt, mentoring developers, or improving code quality.
+### [**chaos-engineer**](chaos-engineer.md) - 系統彈性測試專家
 
-### [**compliance-auditor**](compliance-auditor.md) - Regulatory compliance expert
-Compliance specialist ensuring adherence to regulations and standards. Masters GDPR, HIPAA, SOC2, and industry-specific requirements. Navigates complex compliance landscapes with expertise.
+彈性專家使用混沌工程來發現弱點。精通故障注入、演練日和混沌實驗。透過受控混沌建立對系統可靠性的信心。
 
-**Use when:** Achieving regulatory compliance, implementing data privacy, preparing for audits, documenting compliance, or understanding regulations.
+**使用時機：** 測試系統彈性、實作混沌工程、規劃故障情境、改善容錯能力或驗證災難復原。
 
-### [**debugger**](debugger.md) - Advanced debugging specialist
-Debugging expert solving the most complex issues. Masters debugging tools, techniques, and methodologies across languages and platforms. Finds root causes where others give up.
+### [**code-reviewer**](code-reviewer.md) - 程式碼品質守護者
 
-**Use when:** Debugging complex issues, analyzing memory leaks, investigating race conditions, profiling applications, or solving intermittent bugs.
+程式碼品質專家執行徹底的程式碼檢視。精通最佳實務、設計模式和程式碼異味。確保程式碼乾淨、可維護且遵循團隊標準。
 
-### [**error-detective**](error-detective.md) - Error analysis and resolution expert
-Error investigation specialist tracking down elusive bugs. Expert in log analysis, error patterns, and systematic debugging. Turns cryptic errors into actionable solutions.
+**使用時機：** 檢視 pull request、建立程式碼標準、識別技術債務、指導開發者或改善程式碼品質。
 
-**Use when:** Investigating production errors, analyzing error patterns, setting up error tracking, improving error handling, or debugging distributed systems.
+### [**compliance-auditor**](compliance-auditor.md) - 法規合規專家
 
-### [**penetration-tester**](penetration-tester.md) - Ethical hacking specialist
-Security expert simulating attacks to find vulnerabilities. Masters OWASP Top 10, penetration testing tools, and exploit techniques. Thinks like an attacker to defend like a pro.
+合規專家確保遵循法規和標準。精通 GDPR、HIPAA、SOC2 和行業特定要求。以專業知識導航複雜的合規環境。
 
-**Use when:** Performing security assessments, testing for vulnerabilities, validating security fixes, implementing security testing, or preparing for external audits.
+**使用時機：** 達成法規合規、實作資料隱私、準備稽核、記錄合規或了解法規。
 
-### [**performance-engineer**](performance-engineer.md) - Performance optimization expert
-Performance specialist making applications blazing fast. Masters profiling, optimization techniques, and performance testing. Eliminates bottlenecks and optimizes resource usage.
+### [**debugger**](debugger.md) - 進階除錯專家
 
-**Use when:** Optimizing application performance, conducting load testing, analyzing bottlenecks, improving response times, or reducing resource consumption.
+除錯專家解決最複雜的問題。精通跨語言和平台的除錯工具、技術和方法。在其他人放棄的地方找到根本原因。
 
-### [**qa-expert**](qa-expert.md) - Test automation specialist
-Quality assurance master designing comprehensive test strategies. Expert in test automation, frameworks, and methodologies. Ensures quality through systematic testing approaches.
+**使用時機：** 除錯複雜問題、分析記憶體洩漏、調查競爭條件、分析應用程式或解決間歇性錯誤。
 
-**Use when:** Setting up test automation, designing test strategies, implementing CI/CD testing, improving test coverage, or establishing QA processes.
+### [**error-detective**](error-detective.md) - 錯誤分析和解決專家
 
-### [**security-auditor**](security-auditor.md) - Security vulnerability expert
-Security specialist conducting thorough security audits. Masters vulnerability assessment, security best practices, and remediation strategies. Protects applications from evolving threats.
+錯誤調查專家追蹤難以捉摸的錯誤。專精於日誌分析、錯誤模式和系統性除錯。將神秘錯誤轉化為可行的解決方案。
 
-**Use when:** Auditing application security, implementing security best practices, fixing vulnerabilities, designing secure architectures, or training teams on security.
+**使用時機：** 調查生產錯誤、分析錯誤模式、設定錯誤追蹤、改善錯誤處理或除錯分散式系統。
 
-### [**test-automator**](test-automator.md) - Test automation framework expert
-Automation specialist building robust test frameworks. Expert in various testing tools, patterns, and strategies. Creates maintainable, reliable automated test suites.
+### [**penetration-tester**](penetration-tester.md) - 道德駭客專家
 
-**Use when:** Building test frameworks, automating test cases, integrating tests with CI/CD, improving test reliability, or scaling test automation.
+安全專家模擬攻擊以發現漏洞。精通 OWASP Top 10、滲透測試工具和攻擊技術。像攻擊者一樣思考，像專業人士一樣防禦。
 
-## =� Quick Selection Guide
+**使用時機：** 執行安全評估、測試漏洞、驗證安全修復、實作安全測試或準備外部稽核。
 
-| If you need to... | Use this subagent |
-|-------------------|-------------------|
-| Make apps accessible | **accessibility-tester** |
-| Review architecture | **architect-reviewer** |
-| Test system resilience | **chaos-engineer** |
-| Review code quality | **code-reviewer** |
-| Achieve compliance | **compliance-auditor** |
-| Debug complex issues | **debugger** |
-| Investigate errors | **error-detective** |
-| Test security | **penetration-tester** |
-| Optimize performance | **performance-engineer** |
-| Automate testing | **qa-expert** |
-| Audit security | **security-auditor** |
-| Build test frameworks | **test-automator** |
+### [**performance-engineer**](performance-engineer.md) - 效能優化專家
 
-## =� Common Quality Patterns
+效能專家讓應用程式極速運行。精通分析、優化技術和效能測試。消除瓶頸並優化資源使用。
 
-**Comprehensive Testing:**
-- **qa-expert** for test strategy
-- **test-automator** for automation framework
-- **performance-engineer** for load testing
-- **accessibility-tester** for a11y testing
+**使用時機：** 優化應用程式效能、進行負載測試、分析瓶頸、改善回應時間或減少資源消耗。
 
-**Security Assessment:**
-- **security-auditor** for vulnerability assessment
-- **penetration-tester** for penetration testing
-- **compliance-auditor** for compliance check
-- **code-reviewer** for secure coding
+### [**qa-expert**](qa-expert.md) - 測試自動化專家
 
-**Performance Optimization:**
-- **performance-engineer** for profiling
-- **debugger** for bottleneck analysis
-- **error-detective** for issue investigation
-- **chaos-engineer** for stress testing
+品質保證大師設計全面的測試策略。專精於測試自動化、框架和方法。透過系統性測試方法確保品質。
 
-**Code Quality:**
-- **code-reviewer** for code review
-- **architect-reviewer** for design review
-- **qa-expert** for quality processes
-- **test-automator** for test coverage
+**使用時機：** 設定測試自動化、設計測試策略、實作 CI/CD 測試、改善測試覆蓋率或建立 QA 流程。
 
-## <� Getting Started
+### [**security-auditor**](security-auditor.md) - 安全漏洞專家
 
-1. **Identify quality concerns** in your application
-2. **Choose appropriate specialists** for your needs
-3. **Provide application context** and existing issues
-4. **Share relevant code and logs** for analysis
-5. **Implement recommended improvements** systematically
+安全專家進行徹底的安全稽核。精通漏洞評估、安全最佳實務和修復策略。保護應用程式免受不斷演進的威脅。
 
-## =� Best Practices
+**使用時機：** 稽核應用程式安全、實作安全最佳實務、修復漏洞、設計安全架構或訓練團隊安全知識。
 
-- **Shift left:** Catch issues early in development
-- **Automate repetitively:** Manual testing doesn't scale
-- **Security throughout:** Security isn't an afterthought
-- **Performance matters:** Users expect fast applications
-- **Accessibility included:** Design for all users
-- **Test continuously:** Quality is ongoing
-- **Monitor production:** Learn from real usage
-- **Document findings:** Share knowledge with the team
+### [**test-automator**](test-automator.md) - 測試自動化框架專家
 
-Choose your quality & security specialist and build better software today!
+自動化專家建置穩健的測試框架。專精於各種測試工具、模式和策略。建立可維護、可靠的自動化測試套件。
+
+**使用時機：** 建置測試框架、自動化測試案例、整合測試與 CI/CD、改善測試可靠性或擴展測試自動化。
+
+## 🎯 快速選擇指南
+
+| 如果您需要...    | 使用此子代理             |
+| ---------------- | ------------------------ |
+| 讓應用程式無障礙 | **accessibility-tester** |
+| 檢視架構         | **architect-reviewer**   |
+| 測試系統彈性     | **chaos-engineer**       |
+| 檢視程式碼品質   | **code-reviewer**        |
+| 達成合規         | **compliance-auditor**   |
+| 除錯複雜問題     | **debugger**             |
+| 調查錯誤         | **error-detective**      |
+| 測試安全性       | **penetration-tester**   |
+| 優化效能         | **performance-engineer** |
+| 自動化測試       | **qa-expert**            |
+| 稽核安全性       | **security-auditor**     |
+| 建置測試框架     | **test-automator**       |
+
+## 🔄 常見品質模式
+
+**全面測試：**
+
+- **qa-expert** 負責測試策略
+- **test-automator** 負責自動化框架
+- **performance-engineer** 負責負載測試
+- **accessibility-tester** 負責無障礙測試
+
+**安全評估：**
+
+- **security-auditor** 負責漏洞評估
+- **penetration-tester** 負責滲透測試
+- **compliance-auditor** 負責合規檢查
+- **code-reviewer** 負責安全編碼
+
+**效能優化：**
+
+- **performance-engineer** 負責分析
+- **debugger** 負責瓶頸分析
+- **error-detective** 負責問題調查
+- **chaos-engineer** 負責壓力測試
+
+**程式碼品質：**
+
+- **code-reviewer** 負責程式碼檢視
+- **architect-reviewer** 負責設計檢視
+- **qa-expert** 負責品質流程
+- **test-automator** 負責測試覆蓋率
+
+## 🚀 開始使用
+
+1. **識別品質關注點**在您的應用程式中
+2. **選擇適當的專家**滿足您的需求
+3. **提供應用程式上下文**和現有問題
+4. **分享相關程式碼和日誌**進行分析
+5. **系統性實作建議的改進**
+
+## 📋 最佳實務
+
+- **左移：** 在開發早期發現問題
+- **自動化重複性：** 手動測試無法擴展
+- **全程安全：** 安全不是事後考慮
+- **效能很重要：** 使用者期望快速應用程式
+- **包含無障礙：** 為所有使用者設計
+- **持續測試：** 品質是持續的過程
+- **監控生產：** 從實際使用中學習
+- **記錄發現：** 與團隊分享知識
+
+選擇您的品質與安全專家，今天就開始建置更好的軟體！
