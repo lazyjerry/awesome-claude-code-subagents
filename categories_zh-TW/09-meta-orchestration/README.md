@@ -1,117 +1,130 @@
-# Meta & Orchestration Subagents
+# 元編排子代理
 
-Meta & Orchestration subagents are your conductors and coordinators, managing complex multi-agent workflows and optimizing AI system performance. These specialists excel at the meta-level - orchestrating other agents, managing context, distributing tasks, and ensuring smooth collaboration between multiple AI systems. They turn chaos into symphony, making complex AI systems work harmoniously together.
+元編排子代理是您的指揮家和協調者，管理複雜的多代理工作流程並優化 AI 系統效能。這些專家擅長元層級工作 - 編排其他代理、管理上下文、分發任務，以及確保多個 AI 系統之間的順暢協作。他們將混亂轉化為交響樂，讓複雜的 AI 系統和諧地協同工作。
 
-## <� When to Use Meta & Orchestration Subagents
+## 🎯 何時使用元編排子代理
 
-Use these subagents when you need to:
-- **Coordinate multiple agents** for complex tasks
-- **Optimize context usage** across conversations
-- **Distribute tasks** efficiently among specialists
-- **Handle errors** gracefully in multi-agent systems
-- **Synthesize knowledge** from various sources
-- **Monitor performance** of AI workflows
-- **Design complex workflows** with multiple steps
-- **Scale AI operations** across teams
+當您需要以下功能時使用這些子代理：
 
-## =� Available Subagents
+- **協調多個代理**處理複雜任務
+- **優化上下文使用**跨對話
+- **有效分發任務**給專家
+- **優雅處理錯誤**在多代理系統中
+- **綜合知識**來自各種來源
+- **監控效能**AI 工作流程
+- **設計複雜工作流程**具備多個步驟
+- **擴展 AI 營運**跨團隊
 
-### [**agent-organizer**](agent-organizer.md) - Multi-agent coordinator
-Orchestration expert managing complex multi-agent collaborations. Masters task decomposition, agent selection, and result synthesis. Turns complex problems into coordinated solutions.
+## 🚀 可用子代理
 
-**Use when:** Coordinating multiple agents, breaking down complex tasks, managing agent dependencies, synthesizing results, or designing agent workflows.
+### [**agent-organizer**](agent-organizer.md) - 多代理協調者
 
-### [**context-manager**](context-manager.md) - Context optimization expert
-Context specialist maximizing efficiency in AI conversations. Expert in context windows, information prioritization, and memory management. Ensures optimal use of limited context space.
+編排專家管理複雜的多代理協作。精通任務分解、代理選擇和結果綜合。將複雜問題轉化為協調解決方案。
 
-**Use when:** Optimizing long conversations, managing context windows, prioritizing information, implementing memory systems, or handling context overflow.
+**使用時機：** 協調多個代理、分解複雜任務、管理代理依賴、綜合結果，或設計代理工作流程。
 
-### [**error-coordinator**](error-coordinator.md) - Error handling and recovery specialist
-Error handling expert ensuring graceful failure recovery. Masters error patterns, fallback strategies, and system resilience. Keeps multi-agent systems running smoothly despite failures.
+### [**context-manager**](context-manager.md) - 上下文優化專家
 
-**Use when:** Implementing error handling, designing recovery strategies, managing cascading failures, monitoring system health, or building resilient workflows.
+上下文專家最大化 AI 對話效率。精通上下文視窗、資訊優先排序和記憶體管理。確保有限上下文空間的最佳使用。
 
-### [**knowledge-synthesizer**](knowledge-synthesizer.md) - Knowledge aggregation expert
-Knowledge synthesis specialist combining information from multiple sources. Expert in information fusion, conflict resolution, and insight generation. Creates coherent knowledge from diverse inputs.
+**使用時機：** 優化長對話、管理上下文視窗、優先排序資訊、實作記憶體系統，或處理上下文溢位。
 
-**Use when:** Combining multiple perspectives, resolving conflicting information, generating comprehensive reports, building knowledge bases, or synthesizing research.
+### [**error-coordinator**](error-coordinator.md) - 錯誤處理和恢復專家
 
-### [**multi-agent-coordinator**](multi-agent-coordinator.md) - Advanced multi-agent orchestration
-Advanced orchestration expert handling complex agent ecosystems. Masters parallel processing, dependency management, and distributed workflows. Scales AI operations to enterprise level.
+錯誤處理專家確保優雅的故障恢復。精通錯誤模式、備援策略和系統彈性。讓多代理系統在故障中保持順暢運行。
 
-**Use when:** Building large-scale agent systems, implementing parallel workflows, managing agent ecosystems, coordinating distributed tasks, or optimizing throughput.
+**使用時機：** 實作錯誤處理、設計恢復策略、管理級聯故障、監控系統健康，或建構彈性工作流程。
 
-### [**performance-monitor**](performance-monitor.md) - Agent performance optimization
-Performance specialist monitoring and optimizing agent systems. Expert in metrics, bottleneck analysis, and optimization strategies. Ensures peak performance across all agents.
+### [**knowledge-synthesizer**](knowledge-synthesizer.md) - 知識聚合專家
 
-**Use when:** Monitoring agent performance, identifying bottlenecks, optimizing workflows, implementing metrics, or improving system efficiency.
+知識綜合專家結合來自多個來源的資訊。精通資訊融合、衝突解決和洞察生成。從多樣化輸入創造連貫知識。
 
-### [**task-distributor**](task-distributor.md) - Task allocation specialist
-Task distribution expert optimizing work allocation across agents. Masters load balancing, capability matching, and priority scheduling. Ensures efficient use of all available agents.
+**使用時機：** 結合多個觀點、解決衝突資訊、生成全面報告、建構知識庫，或綜合研究。
 
-**Use when:** Distributing tasks among agents, implementing load balancing, optimizing task queues, managing priorities, or scheduling agent work.
+### [**multi-agent-coordinator**](multi-agent-coordinator.md) - 進階多代理編排
 
-### [**workflow-orchestrator**](workflow-orchestrator.md) - Complex workflow automation
-Workflow specialist designing and executing sophisticated AI workflows. Expert in workflow patterns, state management, and process automation. Transforms complex processes into smooth operations.
+進階編排專家處理複雜的代理生態系統。精通並行處理、依賴管理和分散式工作流程。將 AI 營運擴展至企業級。
 
-**Use when:** Designing complex workflows, implementing process automation, managing workflow state, handling long-running processes, or building workflow engines.
+**使用時機：** 建構大規模代理系統、實作並行工作流程、管理代理生態系統、協調分散式任務，或優化吞吐量。
 
-## =� Quick Selection Guide
+### [**performance-monitor**](performance-monitor.md) - 代理效能優化
 
-| If you need to... | Use this subagent |
-|-------------------|-------------------|
-| Coordinate multiple agents | **agent-organizer** |
-| Manage context efficiently | **context-manager** |
-| Handle system errors | **error-coordinator** |
-| Combine knowledge sources | **knowledge-synthesizer** |
-| Scale agent operations | **multi-agent-coordinator** |
-| Monitor performance | **performance-monitor** |
-| Distribute tasks | **task-distributor** |
-| Automate workflows | **workflow-orchestrator** |
+效能專家監控和優化代理系統。精通指標、瓶頸分析和優化策略。確保所有代理的峰值效能。
 
-## =� Common Orchestration Patterns
+**使用時機：** 監控代理效能、識別瓶頸、優化工作流程、實作指標，或改善系統效率。
 
-**Complex Problem Solving:**
-- **agent-organizer** for task breakdown
-- **task-distributor** for work allocation
-- **knowledge-synthesizer** for result combination
-- **error-coordinator** for failure handling
+### [**task-distributor**](task-distributor.md) - 任務分配專家
 
-**Large-Scale Operations:**
-- **multi-agent-coordinator** for ecosystem management
-- **performance-monitor** for optimization
-- **workflow-orchestrator** for process automation
-- **context-manager** for efficiency
+任務分發專家優化跨代理的工作分配。精通負載平衡、能力匹配和優先排程。確保所有可用代理的高效使用。
 
-**Workflow Automation:**
-- **workflow-orchestrator** for process design
-- **task-distributor** for work distribution
-- **error-coordinator** for resilience
-- **performance-monitor** for optimization
+**使用時機：** 在代理間分發任務、實作負載平衡、優化任務佇列、管理優先順序，或排程代理工作。
 
-**Knowledge Management:**
-- **knowledge-synthesizer** for information fusion
-- **context-manager** for memory optimization
-- **agent-organizer** for research coordination
-- **workflow-orchestrator** for knowledge workflows
+### [**workflow-orchestrator**](workflow-orchestrator.md) - 複雜工作流程自動化
 
-## <� Getting Started
+工作流程專家設計和執行精密的 AI 工作流程。精通工作流程模式、狀態管理和流程自動化。將複雜流程轉化為順暢操作。
 
-1. **Map your workflow** and identify complexity
-2. **Choose orchestration strategy** based on needs
-3. **Design agent interactions** and dependencies
-4. **Implement monitoring** from the start
-5. **Iterate and optimize** based on performance
+**使用時機：** 設計複雜工作流程、實作流程自動化、管理工作流程狀態、處理長時間運行流程，或建構工作流程引擎。
 
-## =� Best Practices
+## 🎯 快速選擇指南
 
-- **Start simple:** Build complexity incrementally
-- **Monitor everything:** Visibility prevents issues
-- **Handle failures gracefully:** Expect and plan for errors
-- **Optimize context usage:** Context is precious
-- **Document workflows:** Complex systems need clarity
-- **Test at scale:** Small tests miss orchestration issues
-- **Version workflows:** Track changes over time
-- **Measure impact:** Quantify orchestration benefits
+| 如果您需要...  | 使用此子代理                |
+| -------------- | --------------------------- |
+| 協調多個代理   | **agent-organizer**         |
+| 有效管理上下文 | **context-manager**         |
+| 處理系統錯誤   | **error-coordinator**       |
+| 結合知識來源   | **knowledge-synthesizer**   |
+| 擴展代理營運   | **multi-agent-coordinator** |
+| 監控效能       | **performance-monitor**     |
+| 分發任務       | **task-distributor**        |
+| 自動化工作流程 | **workflow-orchestrator**   |
 
-Choose your meta & orchestration specialist and conduct your AI symphony!
+## 🔄 常見編排模式
+
+**複雜問題解決：**
+
+- **agent-organizer** 負責任務分解
+- **task-distributor** 負責工作分配
+- **knowledge-synthesizer** 負責結果結合
+- **error-coordinator** 負責故障處理
+
+**大規模營運：**
+
+- **multi-agent-coordinator** 負責生態系統管理
+- **performance-monitor** 負責優化
+- **workflow-orchestrator** 負責流程自動化
+- **context-manager** 負責效率
+
+**工作流程自動化：**
+
+- **workflow-orchestrator** 負責流程設計
+- **task-distributor** 負責工作分發
+- **error-coordinator** 負責彈性
+- **performance-monitor** 負責優化
+
+**知識管理：**
+
+- **knowledge-synthesizer** 負責資訊融合
+- **context-manager** 負責記憶體優化
+- **agent-organizer** 負責研究協調
+- **workflow-orchestrator** 負責知識工作流程
+
+## 🚀 開始使用
+
+1. **映射您的工作流程**並識別複雜性
+2. **根據需求選擇編排策略**
+3. **設計代理互動**和依賴關係
+4. **從一開始實作監控**
+5. **基於效能迭代和優化**
+
+## 📋 最佳實務
+
+- **從簡單開始：** 逐步建構複雜性
+- **監控一切：** 可見性預防問題
+- **優雅處理故障：** 預期並規劃錯誤
+- **優化上下文使用：** 上下文很珍貴
+- **記錄工作流程：** 複雜系統需要清晰度
+- **大規模測試：** 小測試錯過編排問題
+- **版本工作流程：** 追蹤隨時間的變更
+- **測量影響：** 量化編排效益
+
+選擇您的元編排專家並指揮您的 AI 交響樂！

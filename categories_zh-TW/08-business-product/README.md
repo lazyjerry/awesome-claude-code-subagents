@@ -1,129 +1,144 @@
-# Business & Product Subagents
+# 商業與產品子代理
 
-Business & Product subagents bridge the gap between technology and business value. These specialists understand both technical implementation and business strategy, helping teams build products that users love and businesses thrive on. From product strategy to customer success, from business analysis to technical writing, they ensure technology serves real business needs and delivers measurable value.
+商業與產品子代理在技術和商業價值之間架起橋樑。這些專家同時了解技術實作和商業策略，幫助團隊建構使用者喜愛且企業賴以成功的產品。從產品策略到客戶成功，從商業分析到技術寫作，他們確保技術服務於真正的商業需求並提供可衡量的價值。
 
-## <� When to Use Business & Product Subagents
+## 🎯 何時使用商業與產品子代理
 
-Use these subagents when you need to:
-- **Define product strategy** and roadmaps
-- **Analyze business requirements** and translate to technical specs
-- **Conduct user research** to validate ideas
-- **Create content** that drives engagement
-- **Manage customer relationships** and success
-- **Ensure legal compliance** in technical decisions
-- **Manage projects** effectively with Agile methods
-- **Bridge technical and business** communication
+當您需要以下功能時使用這些子代理：
 
-## =� Available Subagents
+- **定義產品策略**和路線圖
+- **分析商業需求**並轉換為技術規格
+- **進行使用者研究**以驗證想法
+- **創建內容**推動參與度
+- **管理客戶關係**和成功
+- **確保法律合規**在技術決策中
+- **有效管理專案**使用敏捷方法
+- **橋接技術和商業**溝通
 
-### [**business-analyst**](business-analyst.md) - Requirements specialist
-Business analysis expert translating business needs into technical requirements. Masters stakeholder communication, process analysis, and solution design. Ensures technology solves real business problems.
+## 🚀 可用子代理
 
-**Use when:** Gathering requirements, analyzing business processes, defining specifications, creating user stories, or bridging business-technical communication.
+### [**business-analyst**](business-analyst.md) - 需求專家
 
-### [**content-marketer**](content-marketer.md) - Content marketing specialist
-Content expert creating compelling technical and marketing content. Masters SEO, content strategy, and audience engagement. Drives growth through strategic content creation.
+商業分析專家將商業需求轉換為技術需求。精通利害關係人溝通、流程分析和解決方案設計。確保技術解決真正的商業問題。
 
-**Use when:** Creating blog posts, developing content strategy, writing marketing copy, optimizing for SEO, or building content calendars.
+**使用時機：** 收集需求、分析商業流程、定義規格、創建使用者故事，或橋接商業-技術溝通。
 
-### [**customer-success-manager**](customer-success-manager.md) - Customer success expert
-Customer success specialist ensuring users achieve their goals. Expert in onboarding, retention, and customer advocacy. Transforms users into champions through proactive support.
+### [**content-marketer**](content-marketer.md) - 內容行銷專家
 
-**Use when:** Designing onboarding flows, improving user retention, gathering customer feedback, building success metrics, or creating customer programs.
+內容專家創建引人入勝的技術和行銷內容。精通 SEO、內容策略和受眾參與。透過策略性內容創建推動成長。
 
-### [**legal-advisor**](legal-advisor.md) - Legal and compliance specialist
-Legal expert navigating technology law and compliance. Masters privacy regulations, intellectual property, and contract negotiations. Protects businesses while enabling innovation.
+**使用時機：** 創建部落格文章、開發內容策略、撰寫行銷文案、SEO 優化，或建立內容日曆。
 
-**Use when:** Reviewing terms of service, ensuring data privacy compliance, understanding licensing, managing intellectual property, or assessing legal risks.
+### [**customer-success-manager**](customer-success-manager.md) - 客戶成功專家
 
-### [**product-manager**](product-manager.md) - Product strategy expert
-Product visionary defining what to build and why. Expert in market analysis, user needs, and product strategy. Drives product success from conception to market leadership.
+客戶成功專家確保使用者達成目標。精通入門流程、留存和客戶倡導。透過主動支援將使用者轉化為擁護者。
 
-**Use when:** Defining product vision, prioritizing features, conducting market research, creating roadmaps, or making product decisions.
+**使用時機：** 設計入門流程、改善使用者留存、收集客戶回饋、建立成功指標，或創建客戶計畫。
 
-### [**project-manager**](project-manager.md) - Project management specialist
-Project management expert ensuring successful delivery. Masters Agile methodologies, resource planning, and stakeholder management. Keeps projects on time, on budget, and on target.
+### [**legal-advisor**](legal-advisor.md) - 法律和合規專家
 
-**Use when:** Planning projects, managing timelines, coordinating teams, tracking progress, or implementing project methodologies.
+法律專家導航技術法律和合規。精通隱私法規、智慧財產權和合約談判。在實現創新的同時保護企業。
 
-### [**sales-engineer**](sales-engineer.md) - Technical sales expert
-Sales engineering specialist bridging technical complexity and customer needs. Expert in demos, POCs, and technical objections. Helps customers understand and adopt technical solutions.
+**使用時機：** 審查服務條款、確保資料隱私合規、了解授權、管理智慧財產權，或評估法律風險。
 
-**Use when:** Creating technical demos, handling sales objections, designing POCs, supporting sales teams, or explaining technical value.
+### [**product-manager**](product-manager.md) - 產品策略專家
 
-### [**scrum-master**](scrum-master.md) - Agile methodology expert
-Agile facilitator ensuring teams work effectively. Masters Scrum framework, team dynamics, and continuous improvement. Removes impediments and fosters high-performing teams.
+產品願景家定義要建構什麼以及為什麼。精通市場分析、使用者需求和產品策略。從概念到市場領導地位推動產品成功。
 
-**Use when:** Implementing Scrum, facilitating ceremonies, improving team processes, removing blockers, or coaching agile practices.
+**使用時機：** 定義產品願景、優先排序功能、進行市場研究、創建路線圖，或做出產品決策。
 
-### [**technical-writer**](technical-writer.md) - Technical documentation specialist
-Documentation expert making complex technical concepts accessible. Masters various documentation types, tools, and user-focused writing. Creates documentation users actually read.
+### [**project-manager**](project-manager.md) - 專案管理專家
 
-**Use when:** Writing user guides, creating API documentation, developing tutorials, improving documentation, or building knowledge bases.
+專案管理專家確保成功交付。精通敏捷方法論、資源規劃和利害關係人管理。讓專案準時、在預算內且達到目標。
 
-### [**ux-researcher**](ux-researcher.md) - User research expert
-User research specialist uncovering user needs and behaviors. Expert in research methodologies, usability testing, and insight synthesis. Ensures products are built on real user understanding.
+**使用時機：** 規劃專案、管理時程、協調團隊、追蹤進度，或實施專案方法論。
 
-**Use when:** Conducting user interviews, running usability tests, analyzing user behavior, creating personas, or validating product decisions.
+### [**sales-engineer**](sales-engineer.md) - 技術銷售專家
 
-## =� Quick Selection Guide
+銷售工程專家橋接技術複雜性和客戶需求。精通展示、概念驗證和技術異議。幫助客戶了解和採用技術解決方案。
 
-| If you need to... | Use this subagent |
-|-------------------|-------------------|
-| Define requirements | **business-analyst** |
-| Create content | **content-marketer** |
-| Retain customers | **customer-success-manager** |
-| Handle legal matters | **legal-advisor** |
-| Shape product vision | **product-manager** |
-| Manage projects | **project-manager** |
-| Support sales | **sales-engineer** |
-| Run Scrum teams | **scrum-master** |
-| Write documentation | **technical-writer** |
-| Research users | **ux-researcher** |
+**使用時機：** 創建技術展示、處理銷售異議、設計概念驗證、支援銷售團隊，或解釋技術價值。
 
-## =� Common Business Patterns
+### [**scrum-master**](scrum-master.md) - 敏捷方法論專家
 
-**Product Development:**
-- **product-manager** for vision
-- **ux-researcher** for user insights
-- **business-analyst** for requirements
-- **project-manager** for execution
+敏捷促進者確保團隊有效工作。精通 Scrum 框架、團隊動態和持續改善。移除障礙並培養高效能團隊。
 
-**Go-to-Market:**
-- **content-marketer** for content
-- **sales-engineer** for demos
-- **technical-writer** for docs
-- **customer-success-manager** for retention
+**使用時機：** 實施 Scrum、促進儀式、改善團隊流程、移除阻礙，或指導敏捷實務。
 
-**Agile Teams:**
-- **scrum-master** for process
-- **product-manager** for priorities
-- **business-analyst** for stories
-- **project-manager** for tracking
+### [**technical-writer**](technical-writer.md) - 技術文件專家
 
-**Customer Focus:**
-- **ux-researcher** for understanding
-- **customer-success-manager** for satisfaction
-- **technical-writer** for self-service
-- **sales-engineer** for adoption
+文件專家讓複雜的技術概念變得易於理解。精通各種文件類型、工具和以使用者為中心的寫作。創建使用者真正會閱讀的文件。
 
-## <� Getting Started
+**使用時機：** 撰寫使用者指南、創建 API 文件、開發教學、改善文件，或建立知識庫。
 
-1. **Identify business objectives** clearly
-2. **Choose specialists** that align with goals
-3. **Provide business context** and constraints
-4. **Foster collaboration** between specialists
-5. **Measure business impact** continuously
+### [**ux-researcher**](ux-researcher.md) - 使用者研究專家
 
-## =� Best Practices
+使用者研究專家揭露使用者需求和行為。精通研究方法論、可用性測試和洞察綜合。確保產品建立在真正的使用者理解之上。
 
-- **User-centric approach:** Always consider the end user
-- **Data-driven decisions:** Measure and validate
-- **Clear communication:** Bridge technical and business
-- **Iterative improvement:** Small steps, big impact
-- **Stakeholder alignment:** Keep everyone informed
-- **Documentation matters:** Knowledge should be accessible
-- **Legal compliance:** Consider regulations early
-- **Business value focus:** Technology serves business goals
+**使用時機：** 進行使用者訪談、執行可用性測試、分析使用者行為、創建人物誌，或驗證產品決策。
 
-Choose your business & product specialist and build products that matter!
+## 🎯 快速選擇指南
+
+| 如果您需要...   | 使用此子代理                 |
+| --------------- | ---------------------------- |
+| 定義需求        | **business-analyst**         |
+| 創建內容        | **content-marketer**         |
+| 留住客戶        | **customer-success-manager** |
+| 處理法律事務    | **legal-advisor**            |
+| 塑造產品願景    | **product-manager**          |
+| 管理專案        | **project-manager**          |
+| 支援銷售        | **sales-engineer**           |
+| 執行 Scrum 團隊 | **scrum-master**             |
+| 撰寫文件        | **technical-writer**         |
+| 研究使用者      | **ux-researcher**            |
+
+## 🔄 常見商業模式
+
+**產品開發：**
+
+- **product-manager** 負責願景
+- **ux-researcher** 負責使用者洞察
+- **business-analyst** 負責需求
+- **project-manager** 負責執行
+
+**上市策略：**
+
+- **content-marketer** 負責內容
+- **sales-engineer** 負責展示
+- **technical-writer** 負責文件
+- **customer-success-manager** 負責留存
+
+**敏捷團隊：**
+
+- **scrum-master** 負責流程
+- **product-manager** 負責優先順序
+- **business-analyst** 負責故事
+- **project-manager** 負責追蹤
+
+**客戶專注：**
+
+- **ux-researcher** 負責理解
+- **customer-success-manager** 負責滿意度
+- **technical-writer** 負責自助服務
+- **sales-engineer** 負責採用
+
+## 🚀 開始使用
+
+1. **清楚識別商業目標**
+2. **選擇與目標一致的專家**
+3. **提供商業背景**和限制
+4. **促進專家間協作**
+5. **持續衡量商業影響**
+
+## 📋 最佳實務
+
+- **以使用者為中心的方法：** 始終考慮終端使用者
+- **資料驅動決策：** 測量和驗證
+- **清楚溝通：** 橋接技術和商業
+- **迭代改善：** 小步驟，大影響
+- **利害關係人對齊：** 讓每個人都了解情況
+- **文件很重要：** 知識應該易於取得
+- **法律合規：** 提早考慮法規
+- **商業價值專注：** 技術服務商業目標
+
+選擇您的商業與產品專家並建構重要的產品！

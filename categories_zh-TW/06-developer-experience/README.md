@@ -1,123 +1,137 @@
-# Developer Experience Subagents
+# 開發者體驗子代理
 
-Developer Experience subagents are your productivity multipliers, focusing on making development faster, easier, and more enjoyable. These specialists handle everything from code refactoring to documentation, from build optimization to Git workflows. They remove friction from the development process, automate repetitive tasks, and help teams work more efficiently with better tools and practices.
+開發者體驗子代理是你的生產力倍增器，專注於讓開發變得更快速、更簡單、更愉快。這些專家處理從程式碼重構到文件撰寫，從建置優化到 Git 工作流程的所有事務。他們消除開發過程中的摩擦，自動化重複性任務，並幫助團隊透過更好的工具和實踐更有效率地工作。
 
-## <� When to Use Developer Experience Subagents
+## <� 何時使用開發者體驗子代理
 
-Use these subagents when you need to:
-- **Refactor legacy code** for better maintainability
-- **Optimize build systems** for faster development
-- **Create developer tools** and CLI applications
-- **Write technical documentation** that developers love
-- **Manage dependencies** and package updates
-- **Streamline Git workflows** and branching strategies
-- **Modernize codebases** with latest practices
-- **Improve developer productivity** across teams
+在以下情況下使用這些子代理：
 
-## =� Available Subagents
+- **重構遺留程式碼** 以提高可維護性
+- **優化建置系統** 以加快開發速度
+- **建立開發者工具** 和 CLI 應用程式
+- **撰寫技術文件** 讓開發者喜愛
+- **管理相依性** 和套件更新
+- **簡化 Git 工作流程** 和分支策略
+- **現代化程式碼庫** 採用最新實踐
+- **提升開發者生產力** 跨團隊協作
 
-### [**build-engineer**](build-engineer.md) - Build system specialist
-Build optimization expert making compilation and bundling lightning fast. Masters various build tools, optimization techniques, and caching strategies. Reduces build times from minutes to seconds.
+## =� 可用的子代理
 
-**Use when:** Optimizing build times, configuring build tools, implementing build caching, setting up monorepo builds, or troubleshooting build issues.
+### [**build-engineer**](build-engineer.md) - 建置系統專家
 
-### [**cli-developer**](cli-developer.md) - Command-line tool creator
-CLI specialist building intuitive command-line interfaces. Expert in argument parsing, interactive prompts, and cross-platform compatibility. Creates tools developers love to use.
+建置優化專家，讓編譯和打包變得極速。精通各種建置工具、優化技術和快取策略。將建置時間從分鐘縮短到秒。
 
-**Use when:** Building CLI tools, designing command interfaces, implementing interactive CLIs, creating developer utilities, or improving existing CLI applications.
+**使用時機：** 優化建置時間、配置建置工具、實作建置快取、設定 monorepo 建置，或排除建置問題。
 
-### [**dependency-manager**](dependency-manager.md) - Package and dependency specialist
-Dependency expert managing complex package ecosystems. Masters version resolution, security updates, and dependency optimization. Keeps dependencies secure and up-to-date without breaking things.
+### [**cli-developer**](cli-developer.md) - 命令列工具建立者
 
-**Use when:** Managing dependencies, resolving version conflicts, implementing security updates, optimizing package sizes, or setting up dependency automation.
+CLI 專家，建立直觀的命令列介面。精通參數解析、互動式提示和跨平台相容性。建立開發者喜愛使用的工具。
 
-### [**documentation-engineer**](documentation-engineer.md) - Technical documentation expert
-Documentation specialist creating clear, comprehensive technical docs. Masters API documentation, tutorials, and developer guides. Makes complex systems understandable through great documentation.
+**使用時機：** 建立 CLI 工具、設計命令介面、實作互動式 CLI、建立開發者工具，或改善現有 CLI 應用程式。
 
-**Use when:** Writing API documentation, creating developer guides, building documentation sites, improving existing docs, or setting up documentation workflows.
+### [**dependency-manager**](dependency-manager.md) - 套件和相依性專家
 
-### [**dx-optimizer**](dx-optimizer.md) - Developer experience optimization specialist
-DX expert identifying and eliminating developer friction. Analyzes workflows, tools, and processes to improve productivity. Makes development feel effortless and enjoyable.
+相依性專家，管理複雜的套件生態系統。精通版本解析、安全更新和相依性優化。保持相依性安全且最新，不會破壞功能。
 
-**Use when:** Improving developer workflows, analyzing productivity bottlenecks, selecting developer tools, optimizing development environments, or measuring developer experience.
+**使用時機：** 管理相依性、解決版本衝突、實作安全更新、優化套件大小，或設定相依性自動化。
 
-### [**git-workflow-manager**](git-workflow-manager.md) - Git workflow and branching expert
-Git specialist designing efficient version control workflows. Masters branching strategies, merge conflict resolution, and Git automation. Ensures smooth collaboration through Git best practices.
+### [**documentation-engineer**](documentation-engineer.md) - 技術文件專家
 
-**Use when:** Designing Git workflows, implementing branching strategies, resolving complex merges, automating Git processes, or training teams on Git.
+文件專家，建立清晰、全面的技術文件。精通 API 文件、教學和開發者指南。透過優秀的文件讓複雜系統變得易懂。
 
-### [**legacy-modernizer**](legacy-modernizer.md) - Legacy code modernization specialist
-Modernization expert breathing new life into old codebases. Masters incremental refactoring, dependency updates, and architecture improvements. Transforms legacy code without breaking functionality.
+**使用時機：** 撰寫 API 文件、建立開發者指南、建置文件網站、改善現有文件，或設定文件工作流程。
 
-**Use when:** Modernizing legacy applications, planning refactoring strategies, updating old frameworks, migrating to new technologies, or improving code maintainability.
+### [**dx-optimizer**](dx-optimizer.md) - 開發者體驗優化專家
 
-### [**refactoring-specialist**](refactoring-specialist.md) - Code refactoring expert
-Refactoring master improving code structure without changing behavior. Expert in design patterns, code smells, and safe refactoring techniques. Makes code cleaner and more maintainable.
+DX 專家，識別並消除開發者摩擦。分析工作流程、工具和流程以提升生產力。讓開發變得輕鬆愉快。
 
-**Use when:** Refactoring complex code, eliminating code smells, implementing design patterns, improving code structure, or preparing code for new features.
+**使用時機：** 改善開發者工作流程、分析生產力瓶頸、選擇開發者工具、優化開發環境，或測量開發者體驗。
 
-### [**tooling-engineer**](tooling-engineer.md) - Developer tooling specialist
-Tooling expert building and integrating developer tools. Masters IDE configurations, linters, formatters, and custom tooling. Creates development environments that boost productivity.
+### [**git-workflow-manager**](git-workflow-manager.md) - Git 工作流程和分支專家
 
-**Use when:** Setting up development tools, creating custom tooling, configuring IDEs, implementing code quality tools, or building developer platforms.
+Git 專家，設計高效的版本控制工作流程。精通分支策略、合併衝突解決和 Git 自動化。透過 Git 最佳實踐確保順暢協作。
 
-## =� Quick Selection Guide
+**使用時機：** 設計 Git 工作流程、實作分支策略、解決複雜合併、自動化 Git 流程，或訓練團隊使用 Git。
 
-| If you need to... | Use this subagent |
-|-------------------|-------------------|
-| Speed up builds | **build-engineer** |
-| Create CLI tools | **cli-developer** |
-| Manage packages | **dependency-manager** |
-| Write documentation | **documentation-engineer** |
-| Improve workflows | **dx-optimizer** |
-| Design Git strategies | **git-workflow-manager** |
-| Modernize legacy code | **legacy-modernizer** |
-| Refactor code | **refactoring-specialist** |
-| Build dev tools | **tooling-engineer** |
+### [**legacy-modernizer**](legacy-modernizer.md) - 遺留程式碼現代化專家
 
-## =� Common DX Patterns
+現代化專家，為舊程式碼庫注入新生命。精通漸進式重構、相依性更新和架構改善。在不破壞功能的情況下轉換遺留程式碼。
 
-**Legacy Modernization:**
-- **legacy-modernizer** for strategy
-- **refactoring-specialist** for code improvement
-- **dependency-manager** for package updates
-- **documentation-engineer** for new docs
+**使用時機：** 現代化遺留應用程式、規劃重構策略、更新舊框架、遷移到新技術，或改善程式碼可維護性。
 
-**Developer Productivity:**
-- **dx-optimizer** for workflow analysis
-- **tooling-engineer** for tool setup
-- **build-engineer** for build optimization
-- **git-workflow-manager** for version control
+### [**refactoring-specialist**](refactoring-specialist.md) - 程式碼重構專家
 
-**Tool Development:**
-- **cli-developer** for command-line tools
-- **tooling-engineer** for IDE integration
-- **documentation-engineer** for tool docs
-- **build-engineer** for tool packaging
+重構大師，在不改變行為的情況下改善程式碼結構。精通設計模式、程式碼異味和安全重構技術。讓程式碼更清潔、更易維護。
 
-**Code Quality:**
-- **refactoring-specialist** for code structure
-- **dependency-manager** for package health
-- **git-workflow-manager** for code review
-- **documentation-engineer** for standards
+**使用時機：** 重構複雜程式碼、消除程式碼異味、實作設計模式、改善程式碼結構，或為新功能準備程式碼。
 
-## <� Getting Started
+### [**tooling-engineer**](tooling-engineer.md) - 開發者工具專家
 
-1. **Identify pain points** in your development process
-2. **Choose relevant specialists** for improvement
-3. **Analyze current state** of tools and workflows
-4. **Implement improvements** incrementally
-5. **Measure impact** on developer productivity
+工具專家，建立和整合開發者工具。精通 IDE 配置、linter、格式化工具和自訂工具。建立提升生產力的開發環境。
 
-## =� Best Practices
+**使用時機：** 設定開發工具、建立自訂工具、配置 IDE、實作程式碼品質工具，或建立開發者平台。
 
-- **Automate repetitive tasks:** Time saved compounds
-- **Document everything:** Future developers will thank you
-- **Incremental improvements:** Small changes add up
-- **Measure impact:** Track productivity gains
-- **Tool standardization:** Consistency reduces friction
-- **Developer feedback:** Listen to your users
-- **Continuous improvement:** DX is never "done"
-- **Share knowledge:** Spread best practices
+## =� 快速選擇指南
 
-Choose your developer experience specialist and make development a joy!
+| 如果你需要...    | 使用這個子代理             |
+| ---------------- | -------------------------- |
+| 加速建置         | **build-engineer**         |
+| 建立 CLI 工具    | **cli-developer**          |
+| 管理套件         | **dependency-manager**     |
+| 撰寫文件         | **documentation-engineer** |
+| 改善工作流程     | **dx-optimizer**           |
+| 設計 Git 策略    | **git-workflow-manager**   |
+| 現代化遺留程式碼 | **legacy-modernizer**      |
+| 重構程式碼       | **refactoring-specialist** |
+| 建立開發工具     | **tooling-engineer**       |
+
+## =� 常見 DX 模式
+
+**遺留現代化：**
+
+- **legacy-modernizer** 負責策略
+- **refactoring-specialist** 負責程式碼改善
+- **dependency-manager** 負責套件更新
+- **documentation-engineer** 負責新文件
+
+**開發者生產力：**
+
+- **dx-optimizer** 負責工作流程分析
+- **tooling-engineer** 負責工具設定
+- **build-engineer** 負責建置優化
+- **git-workflow-manager** 負責版本控制
+
+**工具開發：**
+
+- **cli-developer** 負責命令列工具
+- **tooling-engineer** 負責 IDE 整合
+- **documentation-engineer** 負責工具文件
+- **build-engineer** 負責工具打包
+
+**程式碼品質：**
+
+- **refactoring-specialist** 負責程式碼結構
+- **dependency-manager** 負責套件健康
+- **git-workflow-manager** 負責程式碼審查
+- **documentation-engineer** 負責標準
+
+## <� 開始使用
+
+1. **識別痛點** 在你的開發流程中
+2. **選擇相關專家** 進行改善
+3. **分析現狀** 工具和工作流程
+4. **漸進式實作** 改善措施
+5. **測量影響** 對開發者生產力的提升
+
+## =� 最佳實踐
+
+- **自動化重複性任務：** 節省的時間會累積
+- **記錄一切：** 未來的開發者會感謝你
+- **漸進式改善：** 小改變會累積成大效果
+- **測量影響：** 追蹤生產力提升
+- **工具標準化：** 一致性減少摩擦
+- **開發者回饋：** 聆聽你的使用者
+- **持續改善：** DX 永遠沒有「完成」
+- **分享知識：** 傳播最佳實踐
+
+選擇你的開發者體驗專家，讓開發變得愉快！

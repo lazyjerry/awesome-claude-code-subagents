@@ -1,105 +1,116 @@
-# Research & Analysis Subagents
+# 研究與分析子代理
 
-Research & Analysis subagents are your investigative powerhouses, specializing in finding, analyzing, and synthesizing information from diverse sources. These experts excel at deep research, competitive intelligence, market analysis, and trend identification. They transform raw information into actionable insights, helping you make informed decisions based on comprehensive analysis and data-driven research.
+研究與分析子代理是您的調查利器，專精於從多元來源中尋找、分析和整合資訊。這些專家擅長深度研究、競爭情報、市場分析和趨勢識別。他們將原始資訊轉化為可行的洞察，幫助您基於全面分析和數據驅動的研究做出明智決策。
 
-## <� When to Use Research & Analysis Subagents
+## 🔍 何時使用研究與分析子代理
 
-Use these subagents when you need to:
-- **Conduct comprehensive research** on any topic
-- **Find specific information** across multiple sources
-- **Analyze market dynamics** and opportunities
-- **Track competitive intelligence** systematically
-- **Identify emerging trends** before others
-- **Gather and analyze data** for insights
-- **Synthesize complex information** into clear findings
-- **Make data-driven decisions** with confidence
+在以下情況時使用這些子代理：
 
-## =� Available Subagents
+- **進行全面研究** 任何主題
+- **尋找特定資訊** 跨越多個來源
+- **分析市場動態** 和機會
+- **系統性追蹤競爭情報**
+- **識別新興趨勢** 搶先他人
+- **收集和分析數據** 獲得洞察
+- **整合複雜資訊** 成為清晰發現
+- **做出數據驅動決策** 充滿信心
 
-### [**research-analyst**](research-analyst.md) - Comprehensive research specialist
-Research expert conducting thorough investigations across domains. Masters research methodologies, source validation, and insight synthesis. Delivers comprehensive research reports on any topic.
+## 🎯 可用子代理
 
-**Use when:** Conducting deep research, investigating complex topics, validating information, creating research reports, or synthesizing multiple sources.
+### [**research-analyst**](research-analyst.md) - 全面研究專家
 
-### [**search-specialist**](search-specialist.md) - Advanced information retrieval expert
-Search optimization expert finding needles in information haystacks. Masters advanced search techniques, query optimization, and source discovery. Locates hard-to-find information efficiently.
+跨領域進行深入調查的研究專家。精通研究方法論、來源驗證和洞察整合。提供任何主題的全面研究報告。
 
-**Use when:** Finding specific information, optimizing search queries, discovering new sources, conducting systematic searches, or retrieving obscure data.
+**使用時機：** 進行深度研究、調查複雜主題、驗證資訊、創建研究報告，或整合多個來源。
 
-### [**trend-analyst**](trend-analyst.md) - Emerging trends and forecasting expert
-Trend identification specialist spotting patterns before they become obvious. Expert in trend analysis, future forecasting, and weak signal detection. Helps organizations stay ahead of change.
+### [**search-specialist**](search-specialist.md) - 進階資訊檢索專家
 
-**Use when:** Identifying emerging trends, forecasting future developments, analyzing pattern changes, monitoring industry evolution, or planning strategic responses.
+在資訊海中尋找針的搜尋優化專家。精通進階搜尋技術、查詢優化和來源發現。高效定位難以找到的資訊。
 
-### [**competitive-analyst**](competitive-analyst.md) - Competitive intelligence specialist
-Competitive intelligence expert analyzing competitor strategies and market positioning. Masters competitive benchmarking, SWOT analysis, and strategic recommendations. Provides actionable competitive insights.
+**使用時機：** 尋找特定資訊、優化搜尋查詢、發現新來源、進行系統性搜尋，或檢索隱晦數據。
 
-**Use when:** Analyzing competitors, benchmarking performance, identifying competitive advantages, monitoring competitor moves, or developing competitive strategies.
+### [**trend-analyst**](trend-analyst.md) - 新興趨勢與預測專家
 
-### [**market-researcher**](market-researcher.md) - Market analysis and consumer insights
-Market analysis specialist understanding market dynamics and consumer behavior. Expert in market sizing, segmentation, and opportunity identification. Reveals market opportunities and risks.
+在模式變得明顯之前就能發現的趨勢識別專家。專精趨勢分析、未來預測和弱信號檢測。幫助組織保持變化領先地位。
 
-**Use when:** Analyzing market opportunities, understanding consumer behavior, sizing markets, identifying segments, or evaluating market entry strategies.
+**使用時機：** 識別新興趨勢、預測未來發展、分析模式變化、監控產業演進，或規劃策略回應。
 
-### [**data-researcher**](data-researcher.md) - Data discovery and analysis expert
-Data investigation specialist extracting insights from complex datasets. Masters data mining, statistical analysis, and pattern recognition. Transforms raw data into meaningful findings.
+### [**competitive-analyst**](competitive-analyst.md) - 競爭情報專家
 
-**Use when:** Analyzing datasets, discovering data patterns, performing statistical analysis, mining for insights, or investigating data anomalies.
+分析競爭對手策略和市場定位的競爭情報專家。精通競爭基準測試、SWOT 分析和策略建議。提供可行的競爭洞察。
 
-## =� Quick Selection Guide
+**使用時機：** 分析競爭對手、基準測試績效、識別競爭優勢、監控競爭對手動向，或制定競爭策略。
 
-| If you need to... | Use this subagent |
-|-------------------|-------------------|
-| Deep topic research | **research-analyst** |
-| Find specific information | **search-specialist** |
-| Identify future trends | **trend-analyst** |
-| Analyze competitors | **competitive-analyst** |
-| Understand markets | **market-researcher** |
-| Analyze data patterns | **data-researcher** |
+### [**market-researcher**](market-researcher.md) - 市場分析與消費者洞察
 
-## =� Common Research Patterns
+理解市場動態和消費者行為的市場分析專家。專精市場規模評估、細分和機會識別。揭示市場機會和風險。
 
-**Market Intelligence:**
-- **market-researcher** for market analysis
-- **competitive-analyst** for competitor insights
-- **trend-analyst** for future directions
-- **data-researcher** for data validation
+**使用時機：** 分析市場機會、理解消費者行為、評估市場規模、識別細分市場，或評估市場進入策略。
 
-**Strategic Research:**
-- **research-analyst** for comprehensive analysis
-- **search-specialist** for information gathering
-- **trend-analyst** for future planning
-- **competitive-analyst** for positioning
+### [**data-researcher**](data-researcher.md) - 數據發現與分析專家
 
-**Data-Driven Insights:**
-- **data-researcher** for data analysis
-- **market-researcher** for market data
-- **trend-analyst** for pattern identification
-- **research-analyst** for synthesis
+從複雜數據集中提取洞察的數據調查專家。精通數據挖掘、統計分析和模式識別。將原始數據轉化為有意義的發現。
 
-**Competitive Intelligence:**
-- **competitive-analyst** for competitor analysis
-- **market-researcher** for market context
-- **search-specialist** for information discovery
-- **trend-analyst** for industry evolution
+**使用時機：** 分析數據集、發現數據模式、執行統計分析、挖掘洞察，或調查數據異常。
 
-## <� Getting Started
+## 🎯 快速選擇指南
 
-1. **Define research objectives** clearly
-2. **Choose appropriate specialists** for your needs
-3. **Provide context and constraints** for focused research
-4. **Validate findings** through multiple sources
-5. **Apply insights** to decision-making
+| 如果您需要... | 使用此子代理            |
+| ------------- | ----------------------- |
+| 深度主題研究  | **research-analyst**    |
+| 尋找特定資訊  | **search-specialist**   |
+| 識別未來趨勢  | **trend-analyst**       |
+| 分析競爭對手  | **competitive-analyst** |
+| 理解市場      | **market-researcher**   |
+| 分析數據模式  | **data-researcher**     |
 
-## =� Best Practices
+## 🔄 常見研究模式
 
-- **Start with clear questions:** Focus drives better research
-- **Use multiple sources:** Single sources can mislead
-- **Validate information:** Trust but verify
-- **Document methodology:** Research should be reproducible
-- **Consider biases:** All sources have perspectives
-- **Synthesize findings:** Raw data needs interpretation
-- **Update regularly:** Research has expiration dates
-- **Share insights:** Knowledge multiplies when shared
+**市場情報：**
 
-Choose your research & analysis specialist and make better decisions today!
+- **market-researcher** 進行市場分析
+- **competitive-analyst** 提供競爭對手洞察
+- **trend-analyst** 指出未來方向
+- **data-researcher** 進行數據驗證
+
+**策略研究：**
+
+- **research-analyst** 進行全面分析
+- **search-specialist** 收集資訊
+- **trend-analyst** 進行未來規劃
+- **competitive-analyst** 進行定位分析
+
+**數據驅動洞察：**
+
+- **data-researcher** 進行數據分析
+- **market-researcher** 提供市場數據
+- **trend-analyst** 識別模式
+- **research-analyst** 進行整合
+
+**競爭情報：**
+
+- **competitive-analyst** 進行競爭對手分析
+- **market-researcher** 提供市場背景
+- **search-specialist** 發現資訊
+- **trend-analyst** 追蹤產業演進
+
+## 🚀 開始使用
+
+1. **明確定義研究目標**
+2. **選擇適合的專家** 滿足您的需求
+3. **提供背景和限制** 進行聚焦研究
+4. **透過多個來源驗證發現**
+5. **將洞察應用於決策制定**
+
+## 💡 最佳實務
+
+- **從明確問題開始：** 聚焦推動更好的研究
+- **使用多個來源：** 單一來源可能誤導
+- **驗證資訊：** 信任但要驗證
+- **記錄方法論：** 研究應該可重現
+- **考慮偏見：** 所有來源都有觀點
+- **整合發現：** 原始數據需要解釋
+- **定期更新：** 研究有有效期限
+- **分享洞察：** 知識在分享時倍增
+
+選擇您的研究與分析專家，今天就做出更好的決策！

@@ -1,129 +1,144 @@
-# Specialized Domains Subagents
+# 專業領域子代理
 
-Specialized Domains subagents are your experts in specific technology verticals and industries. These specialists bring deep knowledge of domain-specific challenges, regulations, and best practices. From blockchain and IoT to fintech and gaming, they understand the unique requirements and patterns of their specialized fields, helping you build applications that excel in these complex domains.
+專業領域子代理是您在特定技術垂直領域和行業的專家。這些專家帶來對領域特定挑戰、法規和最佳實務的深度知識。從區塊鏈和物聯網到金融科技和遊戲，他們了解其專業領域的獨特需求和模式，幫助您建構在這些複雜領域中表現卓越的應用程式。
 
-## <� When to Use Specialized Domains Subagents
+## 🎯 何時使用專業領域子代理
 
-Use these subagents when you need to:
-- **Build blockchain applications** and smart contracts
-- **Develop IoT solutions** for connected devices
-- **Create payment systems** with various providers
-- **Build gaming applications** with real-time features
-- **Implement fintech solutions** with compliance
-- **Develop embedded systems** with hardware constraints
-- **Create mobile applications** with native features
-- **Design financial algorithms** for trading systems
+當您需要以下功能時使用這些子代理：
 
-## =� Available Subagents
+- **建構區塊鏈應用程式**和智能合約
+- **開發物聯網解決方案**用於連接設備
+- **創建支付系統**與各種提供商
+- **建構遊戲應用程式**具備即時功能
+- **實施金融科技解決方案**符合合規要求
+- **開發嵌入式系統**具備硬體限制
+- **創建行動應用程式**具備原生功能
+- **設計金融演算法**用於交易系統
 
-### [**api-documenter**](api-documenter.md) - API documentation specialist
-API documentation expert creating developer-friendly API docs. Masters OpenAPI/Swagger, interactive documentation, and API best practices. Makes APIs discoverable and easy to integrate.
+## 🚀 可用子代理
 
-**Use when:** Documenting REST APIs, creating API specifications, building developer portals, generating client SDKs, or improving API discoverability.
+### [**api-documenter**](api-documenter.md) - API 文件專家
 
-### [**blockchain-developer**](blockchain-developer.md) - Web3 and crypto specialist
-Blockchain expert building decentralized applications and smart contracts. Masters Ethereum, Solidity, and Web3 technologies. Creates secure, efficient blockchain solutions.
+API 文件專家創建開發者友善的 API 文件。精通 OpenAPI/Swagger、互動式文件和 API 最佳實務。讓 API 易於發現和整合。
 
-**Use when:** Building dApps, writing smart contracts, implementing DeFi protocols, creating NFT platforms, or integrating blockchain features.
+**使用時機：** 記錄 REST API、創建 API 規格、建構開發者入口網站、生成客戶端 SDK，或改善 API 可發現性。
 
-### [**embedded-systems**](embedded-systems.md) - Embedded and real-time systems expert
-Embedded systems specialist working with constrained environments. Expert in microcontrollers, RTOS, and hardware interfaces. Builds efficient software for resource-limited devices.
+### [**blockchain-developer**](blockchain-developer.md) - Web3 和加密貨幣專家
 
-**Use when:** Programming microcontrollers, developing firmware, implementing real-time systems, optimizing for memory/power, or interfacing with hardware.
+區塊鏈專家建構去中心化應用程式和智能合約。精通以太坊、Solidity 和 Web3 技術。創建安全、高效的區塊鏈解決方案。
 
-### [**fintech-engineer**](fintech-engineer.md) - Financial technology specialist
-Fintech expert building secure, compliant financial applications. Masters payment processing, regulatory requirements, and financial APIs. Navigates the complex world of financial technology.
+**使用時機：** 建構 dApp、撰寫智能合約、實施 DeFi 協議、創建 NFT 平台，或整合區塊鏈功能。
 
-**Use when:** Building payment systems, implementing banking features, ensuring financial compliance, integrating financial APIs, or developing trading platforms.
+### [**embedded-systems**](embedded-systems.md) - 嵌入式和即時系統專家
 
-### [**game-developer**](game-developer.md) - Game development expert
-Gaming specialist creating engaging interactive experiences. Expert in game engines, real-time networking, and performance optimization. Builds games that captivate players.
+嵌入式系統專家在受限環境中工作。精通微控制器、RTOS 和硬體介面。為資源有限的設備建構高效軟體。
 
-**Use when:** Developing games, implementing game mechanics, optimizing game performance, building multiplayer features, or creating game tools.
+**使用時機：** 程式設計微控制器、開發韌體、實施即時系統、優化記憶體/功耗，或與硬體介面。
 
-### [**iot-engineer**](iot-engineer.md) - IoT systems developer
-IoT expert connecting physical devices to the cloud. Masters device protocols, edge computing, and IoT platforms. Creates scalable solutions for the Internet of Things.
+### [**fintech-engineer**](fintech-engineer.md) - 金融科技專家
 
-**Use when:** Building IoT applications, implementing device communication, managing IoT fleets, processing sensor data, or designing IoT architectures.
+金融科技專家建構安全、合規的金融應用程式。精通支付處理、法規要求和金融 API。導航複雜的金融科技世界。
 
-### [**mobile-app-developer**](mobile-app-developer.md) - Mobile application specialist
-Mobile expert creating native and cross-platform applications. Masters iOS/Android development, mobile UI/UX, and app store deployment. Builds apps users love on their devices.
+**使用時機：** 建構支付系統、實施銀行功能、確保金融合規、整合金融 API，或開發交易平台。
 
-**Use when:** Creating mobile apps, implementing native features, optimizing mobile performance, handling offline functionality, or deploying to app stores.
+### [**game-developer**](game-developer.md) - 遊戲開發專家
 
-### [**payment-integration**](payment-integration.md) - Payment systems expert
-Payment specialist integrating various payment providers and methods. Expert in PCI compliance, payment security, and transaction handling. Makes payments seamless and secure.
+遊戲專家創建引人入勝的互動體驗。精通遊戲引擎、即時網路和效能優化。建構吸引玩家的遊戲。
 
-**Use when:** Integrating payment gateways, implementing subscriptions, handling PCI compliance, processing transactions, or building checkout flows.
+**使用時機：** 開發遊戲、實施遊戲機制、優化遊戲效能、建構多人功能，或創建遊戲工具。
 
-### [**quant-analyst**](quant-analyst.md) - Quantitative analysis specialist
-Quantitative expert developing financial algorithms and models. Masters statistical analysis, risk modeling, and algorithmic trading. Turns market data into profitable strategies.
+### [**iot-engineer**](iot-engineer.md) - 物聯網系統開發者
 
-**Use when:** Building trading algorithms, developing risk models, analyzing financial data, implementing quantitative strategies, or backtesting systems.
+物聯網專家連接實體設備到雲端。精通設備協議、邊緣運算和物聯網平台。為物聯網創建可擴展解決方案。
 
-### [**risk-manager**](risk-manager.md) - Risk assessment and management expert
-Risk management specialist identifying and mitigating various risks. Expert in risk modeling, compliance, and mitigation strategies. Protects systems and businesses from potential threats.
+**使用時機：** 建構物聯網應用程式、實施設備通訊、管理物聯網設備群、處理感測器資料，或設計物聯網架構。
 
-**Use when:** Assessing technical risks, implementing risk controls, building risk models, ensuring compliance, or developing risk management systems.
+### [**mobile-app-developer**](mobile-app-developer.md) - 行動應用程式專家
 
-## =� Quick Selection Guide
+行動專家創建原生和跨平台應用程式。精通 iOS/Android 開發、行動 UI/UX 和應用程式商店部署。建構使用者在設備上喜愛的應用程式。
 
-| Domain | Use this subagent | Best For |
-|--------|-------------------|----------|
-| API Documentation | **api-documenter** | OpenAPI specs, developer portals |
-| Blockchain/Web3 | **blockchain-developer** | Smart contracts, DeFi, NFTs |
-| Embedded/IoT | **embedded-systems** | Firmware, microcontrollers |
-| Financial Tech | **fintech-engineer** | Banking, payments, compliance |
-| Gaming | **game-developer** | Game engines, multiplayer |
-| IoT/Connected | **iot-engineer** | Device clouds, sensors |
-| Mobile Apps | **mobile-app-developer** | iOS/Android apps |
-| Payments | **payment-integration** | Payment gateways, PCI |
-| Quantitative | **quant-analyst** | Trading algorithms, risk |
-| Risk Management | **risk-manager** | Risk assessment, compliance |
+**使用時機：** 創建行動應用程式、實施原生功能、優化行動效能、處理離線功能，或部署到應用程式商店。
 
-## =� Common Domain Patterns
+### [**payment-integration**](payment-integration.md) - 支付系統專家
 
-**Fintech Application:**
-- **fintech-engineer** for compliance
-- **payment-integration** for payments
-- **risk-manager** for risk assessment
-- **quant-analyst** for algorithms
+支付專家整合各種支付提供商和方法。精通 PCI 合規、支付安全和交易處理。讓支付無縫且安全。
 
-**IoT Platform:**
-- **iot-engineer** for architecture
-- **embedded-systems** for devices
-- **mobile-app-developer** for apps
-- **api-documenter** for APIs
+**使用時機：** 整合支付閘道、實施訂閱、處理 PCI 合規、處理交易，或建構結帳流程。
 
-**Blockchain Project:**
-- **blockchain-developer** for smart contracts
-- **fintech-engineer** for financial features
-- **risk-manager** for security
-- **api-documenter** for integration
+### [**quant-analyst**](quant-analyst.md) - 量化分析專家
 
-**Gaming Platform:**
-- **game-developer** for game logic
-- **mobile-app-developer** for mobile
-- **payment-integration** for monetization
-- **api-documenter** for game APIs
+量化專家開發金融演算法和模型。精通統計分析、風險建模和演算法交易。將市場資料轉化為獲利策略。
 
-## <� Getting Started
+**使用時機：** 建構交易演算法、開發風險模型、分析金融資料、實施量化策略，或回測系統。
 
-1. **Understand domain requirements** and constraints
-2. **Choose appropriate specialists** for your domain
-3. **Consider regulatory compliance** if applicable
-4. **Plan for domain-specific challenges** early
-5. **Leverage domain expertise** throughout development
+### [**risk-manager**](risk-manager.md) - 風險評估和管理專家
 
-## =� Best Practices
+風險管理專家識別和緩解各種風險。精通風險建模、合規和緩解策略。保護系統和企業免受潛在威脅。
 
-- **Domain knowledge matters:** Understand the field deeply
-- **Compliance is critical:** Many domains have regulations
-- **Security first:** Specialized domains often handle sensitive data
-- **Performance requirements:** Each domain has unique needs
-- **User expectations:** Domain users have specific workflows
-- **Industry standards:** Follow established patterns
-- **Stay updated:** Specialized domains evolve rapidly
-- **Test thoroughly:** Domain-specific edge cases matter
+**使用時機：** 評估技術風險、實施風險控制、建構風險模型、確保合規，或開發風險管理系統。
 
-Choose your specialized domain expert and build industry-leading applications!
+## 🎯 快速選擇指南
+
+| 領域          | 使用此子代理             | 最適合                       |
+| ------------- | ------------------------ | ---------------------------- |
+| API 文件      | **api-documenter**       | OpenAPI 規格、開發者入口網站 |
+| 區塊鏈/Web3   | **blockchain-developer** | 智能合約、DeFi、NFT          |
+| 嵌入式/物聯網 | **embedded-systems**     | 韌體、微控制器               |
+| 金融科技      | **fintech-engineer**     | 銀行、支付、合規             |
+| 遊戲          | **game-developer**       | 遊戲引擎、多人遊戲           |
+| 物聯網/連接   | **iot-engineer**         | 設備雲端、感測器             |
+| 行動應用程式  | **mobile-app-developer** | iOS/Android 應用程式         |
+| 支付          | **payment-integration**  | 支付閘道、PCI                |
+| 量化          | **quant-analyst**        | 交易演算法、風險             |
+| 風險管理      | **risk-manager**         | 風險評估、合規               |
+
+## 🔄 常見領域模式
+
+**金融科技應用程式：**
+
+- **fintech-engineer** 負責合規
+- **payment-integration** 負責支付
+- **risk-manager** 負責風險評估
+- **quant-analyst** 負責演算法
+
+**物聯網平台：**
+
+- **iot-engineer** 負責架構
+- **embedded-systems** 負責設備
+- **mobile-app-developer** 負責應用程式
+- **api-documenter** 負責 API
+
+**區塊鏈專案：**
+
+- **blockchain-developer** 負責智能合約
+- **fintech-engineer** 負責金融功能
+- **risk-manager** 負責安全
+- **api-documenter** 負責整合
+
+**遊戲平台：**
+
+- **game-developer** 負責遊戲邏輯
+- **mobile-app-developer** 負責行動版
+- **payment-integration** 負責營利
+- **api-documenter** 負責遊戲 API
+
+## 🚀 開始使用
+
+1. **了解領域需求**和限制
+2. **選擇適當的專家**為您的領域
+3. **考慮法規合規**如果適用
+4. **提早規劃領域特定挑戰**
+5. **在整個開發過程中利用領域專業知識**
+
+## 📋 最佳實務
+
+- **領域知識很重要：** 深入了解該領域
+- **合規至關重要：** 許多領域都有法規
+- **安全優先：** 專業領域通常處理敏感資料
+- **效能要求：** 每個領域都有獨特需求
+- **使用者期望：** 領域使用者有特定工作流程
+- **行業標準：** 遵循既定模式
+- **保持更新：** 專業領域快速發展
+- **徹底測試：** 領域特定邊緣情況很重要
+
+選擇您的專業領域專家並建構行業領先的應用程式！
